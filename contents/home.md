@@ -5,11 +5,9 @@
 
 
 
-
-
 #### News
 
-<strong style="color:red;"><strong>I’m actively looking for MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable teammate who is familiar with <strong style="color:red;"><strong>NLP </strong></strong> with <strong style="color:red;"><strong>extensive industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>!
+<strong style="color:red;"><strong>I’m actively looking for MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>NLP </strong></strong> with <strong style="color:red;"><strong>well industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>!
 
 
 #### Biography
@@ -47,6 +45,4 @@ My current passion revolves around building **EFFICIENT** system solutions to AG
 
 * </strong></strong>I am very enthusiastic about discussing academic issues or any interesting project-related topics! </strong></strong> If you'd like to engage in a discussion or collaborate, feel free to contact me via email at any time. 
 
-* If you're an undergraduate student feeling uncertain, especially from a diverse background, and hope to gain some learning experiences from me, I also warmly welcome that!
-
-* ✉️ [yin00486 [at] umn.edu](mailto:yin00486@umn.edu)
+* ✉️ [1094823225 [at] qq.com](mailto:1094823225@qq.com)
