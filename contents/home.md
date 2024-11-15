@@ -14,13 +14,13 @@
 
 #### Biography
 
-My name is Yang Yang. I am currently a senior Undergraduate Student pursuing a bachelor's Degree in computer science at College of Liberal Arts, University of Minnesota Twin Cities, supervised by Prof. [Zirui Liu](https://zirui-ray-liu.github.io/). In the summer of 2023, I visited [TsinghuaNLP](https://github.com/thunlp) and conducted research under Prof. [Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/). 
+My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022.
 
-I have experience in NLP and computer systems(both architecture and high performance machine learning systems), along with extensive industry research internship experience. This includes:
+I have experience in Multimodal/NLP, along with a industry internship experience. This includes:
 
-* Participating in the pretraining of the Yi-Large model at 01.AI.
-* Contributing to ML Infra of the pretraining of the foundation model at ModelBest (with TsinghuaNLP).
-* Participating in the finetuning of the CodeLLM [Raccoon](https://raccoon.sensetime.com/code) (Copilot-like) at SenseTime (with CUHK MMLab).
+* Participated in ReadPaper's Chinese Paper Polishing LLM project.
+* Produced three papers in the area of multimodal sentiment analysis, one of which has been accepted for publication in NAACL 24 Findings.
+
 
 #### Research Interests
 
