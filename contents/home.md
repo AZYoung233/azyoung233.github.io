@@ -22,24 +22,17 @@ I have experience in Multimodal/NLP, along with a industry internship experience
 
 #### Research Interests
 
-My current passion revolves around building **EFFICIENT** system solutions to AGI, this includes:
+My current passion  interest at the moment lies in the application of LLM/Multimodal.
 
-1. <strong><strong>Machine Learning System</strong></strong> 
-    * Training: Design more effective training system and algorithms, examples include [BMTrain](https://github.com/OpenBMB/BMTrain).
-    * Parameter Efficient Fine Turing (PEFT): Improve LoRA-like architecture and low bit model compression. 
-    * Long context inference: example includes [Cross Layer Attention](https://github.com/JerryYin777/Cross-Layer-Attention).
-2. <strong><strong>LLM & LLM applications</strong></strong> 
-    * CodeLLM
-    * Foundation LLM (Yi-lightning)
-    * RAG (GraphRAG): Examples includes [PaperHelper](https://github.com/JerryYin777/PaperHelper).
+1. <strong><strong>LLM & LLM applications</strong></strong> 
+    * Chinese Paper Polishing LLM
+    * Automated optimization of prompt
 
-#### Misc
+2. <strong><strong>Multimodal Sentiment Analysis/Emotion Recognition</strong></strong> 
+    * Contrastive learning: Improving the Performance of Contrastive Learning in multimodal sentiment Analysis, examples include [CLGSI](https://github.com/AZYoung233/CLGSI).
+    * LLM for MSA/ERC: Apply LLM to MSA/ERC in the most efficient way. 
 
-* Before transferring to the University of Minnesota, I studied at Nanchang University, majoring in Artificial Intelligence in a top-tier class with a School Academic Special Scholarship. I was the leader of Nanchang University Supercomputer Cluster Team ([NCUSCC](https://ncuscc.github.io/)) Leader, with experience of ASC22 and SC23(IndySCC). 
 
-* I am passionate about open source and firmly believe in its potential to disseminate knowledge widely, leverage technology to lead innovation to the world and contribute to the advancement of human society. I am proud to have garnered over **1k stars** and acquired over **340 followers** on [GitHub](https://github.com/JerryYin777). I occasionally share my explorations in the machine learning system and LLM field on [Zhihu](https://www.zhihu.com/people/ycr222/posts) in Mandarin.
-
-* I love league of legends and valorant games!
 
 #### Contact<p id="contact-info"></p>
 
