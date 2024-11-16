@@ -17,7 +17,7 @@ My name is Yang Yang. I am currently a third year masters student at South China
 I have experience in Multimodal/NLP, along with a industry internship experience. This includes:
 
 * Participated in ReadPaper's Chinese Paper Polishing LLM project.
-* Produced three papers in the area of multimodal sentiment analysis, one of which has been accepted for publication in NAACL 24 Findings.
+* Produced three papers in the area of multimodal sentiment analysis, one of which has been accepted by NAACL 24 Findings.
 
 
 #### Research Interests
