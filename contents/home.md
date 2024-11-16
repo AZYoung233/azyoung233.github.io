@@ -7,12 +7,12 @@
 
 #### News
 
-<strong style="color:red;"><strong>I’m actively looking for MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>LLM </strong></strong> with <strong style="color:red;"><strong>good industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>!
+<strong style="color:red;"><strong>I’m actively looking for 25Fall/26Spring MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>LLM </strong></strong> with <strong style="color:red;"><strong>good industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>!
 
 
 #### Biography
 
-My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. More details about me can be found in my [CV] (contents/YangYang_CV.pdf).
+My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. More details about me can be found in my [CV] (https://azyoung233.github.io/young2001.github.io/contents/YangYang_CV.pdf).
 
 I have experience in Multimodal/NLP, along with a industry internship experience. This includes:
 
