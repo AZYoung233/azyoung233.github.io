@@ -12,7 +12,7 @@
 
 #### Biography
 
-My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. More details about me can be found in my [CV] (YangYang_CV.pdf).
+My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. More details about me can be found in my [CV] (contents/YangYang_CV.pdf).
 
 I have experience in Multimodal/NLP, along with a industry internship experience. This includes:
 
@@ -22,7 +22,7 @@ I have experience in Multimodal/NLP, along with a industry internship experience
 
 #### Research Interests
 
-My current passion  interest at the moment lies in the application of LLM/Multimodal.
+My current passion interest lies in the application of LLM/Multimodal.
 
 1. <strong><strong>LLM & LLM applications</strong></strong> 
     * Chinese Paper Polishing LLM
@@ -37,8 +37,8 @@ My current passion  interest at the moment lies in the application of LLM/Multim
 #### Internship experience
 
 * International Digital Economy Academy(IDEA), ShenZhen, China      [June, 2024--September, 2023]
-    LLM Algorithm Intern, Readpaper
-    Project topic: Chinese Paper Polishing LLM
+    * LLM Algorithm Intern, Readpaper
+    * Project topic: Chinese Paper Polishing LLM
 
 
 
