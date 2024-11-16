@@ -12,7 +12,7 @@
 
 #### Biography
 
-My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. More details about me can be found in my [CV] (https://azyoung233.github.io/young2001.github.io/contents/YangYang_CV.pdf).
+My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. More details about me can be found in my [CV](https://azyoung233.github.io/young2001.github.io/contents/YangYang_CV.pdf).
 
 I have experience in Multimodal/NLP, along with a industry internship experience. This includes:
 
