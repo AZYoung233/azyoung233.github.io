@@ -37,7 +37,7 @@ My current passion interest lies in the application of LLM/Multimodal.
 #### Internship experience
 
 * International Digital Economy Academy(IDEA), ShenZhen, China      [June, 2024--September, 2023]
-    * LLM Algorithm Intern, Readpaper
+    * LLM Algorithm Intern, ReadPaper
     * Project topic: Chinese Paper Polishing LLM
 
 
