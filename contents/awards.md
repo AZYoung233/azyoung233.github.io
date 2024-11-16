@@ -1,8 +1,3 @@
 
-- **Dean's List (All Semester)** at University of Minnesota Twin Cities.
+- Individual scholarship for Communist Youth League branch secretary, 2021. 
 
-- Special Corporate Scholarships, 2023. **(1/30)**
-
-- School Special Academic Scholarship, 2023.**(1%)**
-
-- First-Class Academic Scholarship, 2022.**(8%)**

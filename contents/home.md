@@ -7,12 +7,12 @@
 
 #### News
 
-<strong style="color:red;"><strong>I’m actively looking for MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>NLP </strong></strong> with <strong style="color:red;"><strong>well industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>!
+<strong style="color:red;"><strong>I’m actively looking for MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>LLM </strong></strong> with <strong style="color:red;"><strong>good industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>!
 
 
 #### Biography
 
-My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022.
+My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. More details about me can be found in my [CV] (YangYang_CV.pdf).
 
 I have experience in Multimodal/NLP, along with a industry internship experience. This includes:
 
@@ -27,10 +27,18 @@ My current passion  interest at the moment lies in the application of LLM/Multim
 1. <strong><strong>LLM & LLM applications</strong></strong> 
     * Chinese Paper Polishing LLM
     * Automated optimization of prompt
+    * Assist with instruction-based image editing with LLM
 
 2. <strong><strong>Multimodal Sentiment Analysis/Emotion Recognition</strong></strong> 
     * Contrastive learning: Improving the Performance of Contrastive Learning in multimodal sentiment Analysis, examples include [CLGSI](https://github.com/AZYoung233/CLGSI).
     * LLM for MSA/ERC: Apply LLM to MSA/ERC in the most efficient way. 
+    * Enhance representation learning with external Lexicons
+
+#### Internship experience
+
+* International Digital Economy Academy(IDEA), ShenZhen, China      [June, 2024--September, 2023]
+    LLM Algorithm Intern, Readpaper
+    Project topic: Chinese Paper Polishing LLM
 
 
 
