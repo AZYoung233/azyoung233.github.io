@@ -7,7 +7,7 @@
 
 #### News
 
-<strong style="color:red;"><strong>I’m actively looking for 25Fall/26Spring MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>LLM </strong></strong> with <strong style="color:red;"><strong>good industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>!
+<!-- <strong style="color:red;"><strong>I’m actively looking for 25Fall/26Spring MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>LLM </strong></strong> with <strong style="color:red;"><strong>good industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>! -->
 
 <strong>Dec 10, 2024</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One paper was accepted by AAAI 2025!
 
