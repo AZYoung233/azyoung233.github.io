@@ -21,7 +21,7 @@ One paper was accepted by NAACL Findings 2024!
 
 #### Biography
 
-My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. Next I will be traveling to Sun Yat-sen University to pursue my PhD degree, supervised by [Liang Yao](https://yao8839836.github.io/). More details about me can be found in my [CV](https://azyoung233.github.io/young2001.github.io/contents/YangYang_CV.pdf).
+My name is Yang Yang. I am currently a third year masters student at South China University of Technology, supervised by [Xunde Dong](https://yanzhao.scut.edu.cn/ExpertInfo.aspx?zjbh=ngYfGNMTwMEvAqET7FVqsQ==). I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. Next I will be traveling to Sun Yat-sen University to pursue my PhD degree, supervised by [Liang Yao](https://yao8839836.github.io/). More details about me can be found in my [CV](https://azyoung233.github.io/young2001.github.io/contents/My_cv.pdf).
 
 I have experience in Multimodal/NLP, along with a industry internship experience. This includes:
 
