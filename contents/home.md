@@ -9,16 +9,19 @@
 
 <!-- <strong style="color:red;"><strong>I’m actively looking for 25Fall/26Spring MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>LLM </strong></strong> with <strong style="color:red;"><strong>good industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>! -->
 
-<strong>Dec 10, 2024</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One paper was accepted by AAAI 2025!
+<body>
+    <p class="preserve-space"><strong>Dec 10, 2024</strong>                     One paper was accepted by AAAI 2025!</p>
+    <p class="preserve-space"><strong>Mar 3, 2024</strong>                     One paper was accepted by NAACL Findings 2024!</p>
+</body>
 
 #### Biography
 
-My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. More details about me can be found in my [CV](https://azyoung233.github.io/young2001.github.io/contents/YangYang_CV.pdf).
+My name is Yang Yang. I am currently a third year masters student at South China University of Technology. I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. Next I will be traveling to Sun Yat-sen University to pursue my PhD degree, my advisor is [Liang Yao](https://yao8839836.github.io/). More details about me can be found in my [CV](https://azyoung233.github.io/young2001.github.io/contents/YangYang_CV.pdf).
 
 I have experience in Multimodal/NLP, along with a industry internship experience. This includes:
 
 * Participated in ReadPaper's Chinese Paper Polishing LLM project.
-* Produced three papers in the area of multimodal sentiment analysis, one of which has been accepted by NAACL 24 Findings.
+* Produced three papers in the area of multimodal sentiment analysis.
 
 
 #### Research Interests
@@ -28,7 +31,6 @@ My current passion interest lies in the application of LLM/Multimodal.
 1. <strong><strong>LLM & LLM applications</strong></strong> 
     * Chinese Paper Polishing LLM
     * Automated optimization of prompt
-    * Assist with instruction-based image editing with LLM
 
 2. <strong><strong>Multimodal Sentiment Analysis/Emotion Recognition</strong></strong> 
     * Contrastive learning: Improving the Performance of Contrastive Learning in multimodal sentiment Analysis, examples include [CLGSI](https://github.com/AZYoung233/CLGSI).
