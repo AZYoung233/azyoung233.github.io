@@ -4,6 +4,8 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
 <!--     <a href="https://github.com/OpenBMB/MiniCPM"><img src="https://github-readme-stats.vercel.app/api/pin/?username=OpenBMB&amp;repo=MiniCPM" alt="Readme Card" /></a> -->
     <a href="https://github.com/AZYoung233/CLGSI"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AZYoung233&repo=CLGSI" alt="Readme Card" /></a>
+    <a href="https://github.com/AZYoung233/MSE-Adapter"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AZYoung233&repo=MSE-Adapter" alt="Readme Card" /></a>
+    
 
 
     

@@ -10,8 +10,13 @@
 <!-- <strong style="color:red;"><strong>I’m actively looking for 25Fall/26Spring MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>LLM </strong></strong> with <strong style="color:red;"><strong>good industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>! -->
 
 
-<strong>Dec 10, 2024</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One paper was accepted by AAAI 2025!
-<strong>Mar 3, 2024</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One paper was accepted by NAACL Findings 2024!
+<strong>Dec 10, 2024</strong>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+One paper was accepted by AAAI 2025!
+
+<strong>Mar 03, 2024</strong>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+One paper was accepted by NAACL Findings 2024!
 
 
 #### Biography
@@ -34,7 +39,7 @@ My current passion interest lies in the application of LLM/Multimodal.
 
 2. <strong><strong>Multimodal Sentiment Analysis/Emotion Recognition</strong></strong> 
     * Contrastive learning: Improving the Performance of Contrastive Learning in multimodal sentiment Analysis, examples include [CLGSI](https://github.com/AZYoung233/CLGSI).
-    * LLM for MSA/ERC: Apply LLM to MSA/ERC in the most efficient way. 
+    * LLM for MSA/ERC: Apply LLM to MSA/ERC in the most efficient way, examples include [MSE-Adapter](https://github.com/AZYoung233/MSE-Adapter). 
     * Enhance representation learning with external Lexicons
 
 #### Internship experience
