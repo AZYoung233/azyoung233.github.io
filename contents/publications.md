@@ -1,3 +1,6 @@
 For full paper list (not now, but I'm sure there will be more great work in the future), please refer to my [Google Scholar](https://scholar.google.com/citations?user=ueMAa5wAAAAJ&hl=zh-CN).
 
+
+- *<strong><strong>Yang Yang</strong></strong>, Xunde Dong, and Yupeng Qiang. 2025. MSE-Adapter: A Lightweight Plugin Endowing LLMs with the Capability to Perform Multimodal Sentiment Analysis and Emotion Recognition. Proceedings of the AAAI Conference on Artificial Intelligence, 39(24), 25642-25650. <strong><strong>(AAAI 2025)</strong></strong>.* [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/download/34755/36910)
+
 - *<strong><strong>Yang Yang</strong></strong>, Xunde Dong, and Yupeng Qiang. 2024. CLGSI: A Multimodal Sentiment Analysis Framework based on Contrastive Learning Guided by Sentiment Intensity. In Findings of the Association for Computational Linguistics: NAACL 2024, pages 2099–2110, Mexico City, Mexico. Association for Computational Linguistics. <strong><strong>(NAACL Findings 2024)</strong></strong>.* [[Paper]](https://aclanthology.org/2024.findings-naacl.135.pdf)
