@@ -10,7 +10,7 @@
       padding: 2px 10px;
       border-radius: 5px 5px 0 0;
       /* 添加最小宽度，可根据实际情况调整 */
-      width: 150px; 
+      width: 200px; 
       /* 如果想固定宽度，可使用 width 属性 */
       /* width: 150px; */ 
       text-align: center; /* 让文字居中显示 */
@@ -51,7 +51,7 @@
 
    .paper-img {
       max-width: 100%;
-      width: 150px; /* 可根据需要调整宽度 */
+      width: 200px; /* 可根据需要调整宽度 */
       height: auto;
       margin-bottom: 10px;
     }
@@ -97,6 +97,7 @@
       </div>
       <img src="contents/publication_img/CLGSI.png" alt="CLGSI" class="paper-img">
     </div>
+    <!-- 这里是绝对路径！特别傻逼 -->
     <div class="paper-info">
       <h2 class="paper-title">CLGSI: A Multimodal Sentiment Analysis Framework based on Contrastive Learning Guided by Sentiment Intensity</h2>
       <p class="authors">
