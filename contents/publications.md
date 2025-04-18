@@ -51,7 +51,7 @@
 
    .paper-img {
       max-width: 100%;
-      width: 300px; /* 可根据需要调整宽度 */
+      width: 150px; /* 可根据需要调整宽度 */
       height: auto;
       margin-bottom: 10px;
     }
