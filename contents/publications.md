@@ -43,9 +43,9 @@
    .button {
       padding: 2px 5px;
       /* 设置固定高度 */
-      height: 15px; 
+      height: 25px; 
       /* 让文字垂直居中 */
-      line-height: 15px; 
+      line-height: 25px; 
       text-decoration: none;
       border-radius: 3px;
       color: black; /* 设置文字为黑色 */
@@ -60,11 +60,11 @@
     }
 
     .aaai-logo {
-      background-color:rgb(7, 62, 107);
+      background-color: #003973;
     }
 
    .naacl-logo {
-      background-color:rgb(240, 19, 19);
+      background-color: #ed1d24;
     }
 
 
@@ -109,16 +109,20 @@
 
    .info-icon {
       display: inline-block;
-      width: 10px; /* 调整方框宽度 */
-      height: 10px; /* 调整方框高度 */
+      width: 12px; /* 调整方框宽度 */
+      height: 12px; /* 调整方框高度 */
       border: 1px solid #000; /* 方框边框 */
       border-radius: 50%; /* 使方框变为圆形 */
       text-align: center;
-      line-height: 10px; /* 让 i 垂直居中 */
+      line-height: 12px; /* 让 i 垂直居中 */
       font-family: Arial, sans-serif;
       font-size: 12px;
       font-weight: bold;
       cursor: pointer;
+      /* 添加背景颜色为黑色 */
+      background-color: #000;
+      /* 添加文字颜色为白色 */
+      color: #fff;
     }
 </style>
 
