@@ -47,7 +47,7 @@
       /* 设置固定高度 */
       height: 30px; 
       /* 让文字垂直居中 */
-      line-height: 30px; 
+      line-height: 28px; 
       text-decoration: none;
       border-radius: 3px;
       color: black; /* 设置文字为黑色 */
