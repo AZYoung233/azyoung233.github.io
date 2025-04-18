@@ -1,3 +1,5 @@
+<sup>#</sup>denotes co-first authors, ✉ denotes the corresponding author
+
 <style>
    .paper-section {
       display: flex;
@@ -68,56 +70,6 @@
     }
 
 
-   .tooltip {
-      position: relative;
-      display: inline-block;
-      cursor: pointer;
-    }
-
-   <style>
-       /* 已有样式 */
-      .tooltip .tooltiptext {
-         visibility: hidden;
-         width: 120px;
-         background-color: #555;
-         /* 修改文字颜色为黑色 */
-         color: #000; 
-         text-align: center;
-         border-radius: 6px;
-         padding: 5px;
-         position: absolute;
-         z-index: 1;
-         bottom: 125%;
-         left: 50%;
-         margin-left: -60px;
-         opacity: 0;
-         transition: opacity 0.3s;
-       }
-   
-       .tooltip .tooltiptext::after {
-          content: "";
-          position: absolute;
-          top: 100%;
-          left: 50%;
-          margin-left: -5px;
-          border-width: 5px;
-          border-style: solid;
-          border-color: #555 transparent transparent transparent;
-       }
-   
-       .tooltip:hover .tooltiptext {
-          visibility: visible;
-          opacity: 1;
-       }
-       /* 已有样式 */
-   </style>
-
-     .info-icon {
-        width: 13px;
-        height: 13px;
-        cursor: pointer;
-    }
-
 
 </style>
 
@@ -133,13 +85,9 @@
       <h2 class="paper-title">MSE-Adapter: A Lightweight Plugin Endowing LLMs with the Capability to Perform Multimodal Sentiment Analysis and Emotion Recognition</h2>
       <p class="authors">
         <strong>Yang Yang</strong>,
-        Xunde Dong<sup>*</sup> 
+        Xunde Dong✉  
         and Yupeng Qiang.
-        <span class="tooltip">
-          <img src="contents/publication_img/注释.svg" alt="Info" class="info-icon"> 
-          <span class="tooltiptext"><sup>*</sup> denotes corresponding author</span>
-        </span>
-      </p>
+         </p>
       <p class="conference-info">
         <strong>In AAAI 2025</strong>
       </p>
@@ -164,12 +112,8 @@
       <h2 class="paper-title">CLGSI: A Multimodal Sentiment Analysis Framework based on Contrastive Learning Guided by Sentiment Intensity</h2>
        <p class="authors">
         <strong>Yang Yang</strong>,
-        Xunde Dong<sup>*</sup> 
+        Xunde Dong✉  
         and Yupeng Qiang.
-        <span class="tooltip">
-          <img src="contents/publication_img/注释.svg" alt="Info" class="info-icon"> 
-          <span class="tooltiptext"><sup>*</sup> denotes corresponding author</span>
-        </span>
       </p>
       <p class="conference-info">
         <strong>In NAACL 2024 Findings</strong>
