@@ -49,6 +49,7 @@
 
    .paper-img {
       max-width: 100%;
+      width: 300px; /* 可根据需要调整宽度 */
       height: auto;
       margin-bottom: 10px;
     }
@@ -82,6 +83,7 @@
     <div class="action-buttons">
       <a href="https://ojs.aaai.org/index.php/AAAI/article/download/34755/36910" class="button">Paper</a>
       <a href="https://arxiv.org/pdf/2502.12478" class="button">arXiv</a>
+      <a href="https://github.com/AZYoung233/MSE-Adapter" class="button">Code</a>
     </div>
   </div>
 
@@ -104,5 +106,6 @@
     </div>
     <div class="action-buttons">
       <a href="https://aclanthology.org/2024.findings-naacl.135.pdf" class="button">Paper</a>
+      <a href="https://github.com/AZYoung233/CLGSI" class="button">Code</a>
     </div>
   </div>
