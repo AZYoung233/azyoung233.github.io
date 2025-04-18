@@ -55,11 +55,11 @@
     }
 
     .aaai-logo {
-      background-color: #2196f3;
+      background-color:rgb(7, 62, 107);
     }
 
    .naacl-logo {
-      background-color:rgb(230, 41, 41);
+      background-color:rgb(240, 19, 19);
     }
   </style>
 
