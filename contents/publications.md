@@ -7,10 +7,6 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
 
 
 
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +22,6 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
     }
 
    .journal-logo {
-      background-color: #f5a623;
       padding: 5px 20px;
       border-radius: 5px 5px 0 0;
     }
@@ -80,11 +75,13 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
 <body>
   <!-- 第一篇论文 -->
   <div class="paper-section">
-    <div class="journal-logo">
-      <span class="journal-name">AAAI 2025</span>
+    <div>
+      <div class="journal-logo aaai-logo">
+        <span class="journal-name">AAAI 2025</span>
+      </div>
+      <img src="../static/assets/img/publication_preview/MSE-Adapter.jpg" alt="MSE-Adapter" class="paper-img">
     </div>
     <div class="paper-info">
-      <img src="../static/assets/img/publication_preview/MSE-Adapter.jpg" alt="MSE-Adapter" class="paper-img">
       <h2 class="paper-title">MSE-Adapter: A Lightweight Plugin Endowing LLMs with the Capability to Perform Multimodal Sentiment Analysis and Emotion Recognition</h2>
       <p class="authors">
         <strong>Yang Yang</strong>, Xunde Dong, and Yupeng Qiang.
@@ -101,11 +98,13 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
 
   <!-- 第二篇论文 -->
   <div class="paper-section">
-    <div class="journal-logo">
-      <span class="journal-name">NAACL 2024 Findings</span>
+    <div>
+      <div class="journal-logo naacl-logo">
+        <span class="journal-name">NAACL 2024 Findings</span>
+      </div>
+      <img src="../static/assets/img/publication_preview/CLGSI.png" alt="CLGSI" class="paper-img">
     </div>
     <div class="paper-info">
-      <img src="../static/assets/img/publication_preview/CLGSI.png" alt="CLGSI" class="paper-img">
       <h2 class="paper-title">CLGSI: A Multimodal Sentiment Analysis Framework based on Contrastive Learning Guided by Sentiment Intensity</h2>
       <p class="authors">
         <strong>Yang Yang</strong>, Xunde Dong, and Yupeng Qiang.
@@ -121,4 +120,3 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
 </body>
 
 </html>
-    
