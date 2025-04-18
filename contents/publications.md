@@ -43,9 +43,9 @@
    .button {
       padding: 2px 5px;
       /* 设置固定高度 */
-      height: 28px; 
+      height: 30px; 
       /* 让文字垂直居中 */
-      line-height: 28px; 
+      line-height: 30px; 
       text-decoration: none;
       border-radius: 3px;
       color: black; /* 设置文字为黑色 */
