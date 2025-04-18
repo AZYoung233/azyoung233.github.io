@@ -66,7 +66,61 @@
    .naacl-logo {
       background-color:rgb(240, 19, 19);
     }
-  </style>
+
+
+   .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+   .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+   .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+
+   .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+
+   .info-icon {
+      display: inline-block;
+      width: 10px; /* 调整方框宽度 */
+      height: 10px; /* 调整方框高度 */
+      border: 1px solid #000; /* 方框边框 */
+      border-radius: 50%; /* 使方框变为圆形 */
+      text-align: center;
+      line-height: 10px; /* 让 i 垂直居中 */
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+</style>
 
 <!-- 第一篇论文 -->
 <div class="paper-section">
@@ -79,7 +133,13 @@
     <div class="paper-info">
       <h2 class="paper-title">MSE-Adapter: A Lightweight Plugin Endowing LLMs with the Capability to Perform Multimodal Sentiment Analysis and Emotion Recognition</h2>
       <p class="authors">
-        <strong>Yang Yang</strong>, Xunde Dong, and Yupeng Qiang.
+        <strong>Yang Yang</strong>,
+        Xunde Dong<sup>*</sup> 
+        and Yupeng Qiang.
+        <span class="tooltip">
+          <span class="info-icon">i</span> <!-- 替换原有的 ！ -->
+          <span class="tooltiptext"><sup>*</sup> denotes corresponding author</span>
+        </span>
       </p>
       <p class="conference-info">
         <strong>In AAAI 2025</strong>
@@ -103,8 +163,14 @@
     <!-- 这里是绝对路径！特别傻逼 -->
     <div class="paper-info">
       <h2 class="paper-title">CLGSI: A Multimodal Sentiment Analysis Framework based on Contrastive Learning Guided by Sentiment Intensity</h2>
-      <p class="authors">
-        <strong>Yang Yang</strong>, Xunde Dong, and Yupeng Qiang.
+       <p class="authors">
+        <strong>Yang Yang</strong>,
+        Xunde Dong<sup>*</sup> 
+        and Yupeng Qiang.
+        <span class="tooltip">
+          <span class="info-icon">i</span> <!-- 替换原有的 ！ -->
+          <span class="tooltiptext"><sup>*</sup> denotes corresponding author</span>
+        </span>
       </p>
       <p class="conference-info">
         <strong>In NAACL 2024 Findings</strong>
