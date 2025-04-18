@@ -42,7 +42,10 @@
 
    .button {
       padding: 2px 5px;
-      /* background-color: white; 设置背景为白色 */
+      /* 设置固定高度 */
+      height: 15px; 
+      /* 让文字垂直居中 */
+      line-height: 15px; 
       text-decoration: none;
       border-radius: 3px;
       color: black; /* 设置文字为黑色 */
