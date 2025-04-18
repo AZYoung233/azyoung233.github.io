@@ -7,10 +7,10 @@
     }
 
    .journal-logo {
-      padding: 2px 20px;
+      padding: 2px 10px;
       border-radius: 5px 5px 0 0;
       /* 添加最小宽度，可根据实际情况调整 */
-      min-width: 150px; 
+      width: 150px; 
       /* 如果想固定宽度，可使用 width 属性 */
       /* width: 150px; */ 
       text-align: center; /* 让文字居中显示 */
@@ -41,7 +41,7 @@
     }
 
    .button {
-      padding: 2px 10px;
+      padding: 2px 5px;
       /* background-color: white; 设置背景为白色 */
       text-decoration: none;
       border-radius: 3px;
