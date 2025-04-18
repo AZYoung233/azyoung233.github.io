@@ -71,7 +71,7 @@
       <div class="journal-logo aaai-logo">
         <span class="journal-name">AAAI</span>
       </div>
-      <img src="../static/assets/img/publication_preview/MSE-Adapter.jpg" alt="MSE-Adapter" class="paper-img">
+      <img src="publication_img/MSE-Adapter.jpg" alt="MSE-Adapter" class="paper-img">
     </div>
     <div class="paper-info">
       <h2 class="paper-title">MSE-Adapter: A Lightweight Plugin Endowing LLMs with the Capability to Perform Multimodal Sentiment Analysis and Emotion Recognition</h2>
@@ -95,7 +95,7 @@
       <div class="journal-logo naacl-logo">
         <span class="journal-name">NAACL</span>
       </div>
-      <img src="../static/assets/img/publication_preview/CLGSI.png" alt="CLGSI" class="paper-img">
+      <img src="publication_img/CLGSI.png" alt="CLGSI" class="paper-img">
     </div>
     <div class="paper-info">
       <h2 class="paper-title">CLGSI: A Multimodal Sentiment Analysis Framework based on Contrastive Learning Guided by Sentiment Intensity</h2>
