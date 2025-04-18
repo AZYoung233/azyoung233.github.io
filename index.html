@@ -93,13 +93,12 @@
     <!-- Home -->
 
     <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="publications">
         <div class="container px-5">
             <header>
                 <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;SELECTED PUBLICATIONS</h2>
             </header>
             <div class="main-body" id="publications-md"></div>
-
         </div>
     </section>
     <!-- Publications  -->
@@ -118,7 +117,7 @@
     <!-- Side Project -->
 
     <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="awards">
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
         <div class="container px-5">
             <header>
                 <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>&nbsp;AWARDS </h2>
@@ -172,3 +171,14 @@
 </body>
 
 </html>
+
+<script>
+    // 加载 publications.md 文件
+    fetch('contents/publications.md')
+      .then(response => response.text())
+      .then(data => {
+            const publicationsContainer = document.getElementById('publications-md');
+            publicationsContainer.innerHTML = data;
+        })
+      .catch(error => console.error('Error loading publications.md:', error));
+</script>
