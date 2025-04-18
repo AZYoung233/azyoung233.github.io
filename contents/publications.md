@@ -9,6 +9,11 @@
    .journal-logo {
       padding: 5px 20px;
       border-radius: 5px 5px 0 0;
+      /* 添加最小宽度，可根据实际情况调整 */
+      min-width: 150px; 
+      /* 如果想固定宽度，可使用 width 属性 */
+      /* width: 150px; */ 
+      text-align: center; /* 让文字居中显示 */
     }
 
    .journal-name {
@@ -22,6 +27,7 @@
 
    .paper-title {
       margin-top: 0;
+      font-size: 1.5rem;
     }
 
    .authors,
@@ -60,7 +66,7 @@
 <div class="paper-section">
     <div>
       <div class="journal-logo aaai-logo">
-        <span class="journal-name">AAAI 2025</span>
+        <span class="journal-name">AAAI</span>
       </div>
       <img src="../static/assets/img/publication_preview/MSE-Adapter.jpg" alt="MSE-Adapter" class="paper-img">
     </div>
@@ -68,6 +74,9 @@
       <h2 class="paper-title">MSE-Adapter: A Lightweight Plugin Endowing LLMs with the Capability to Perform Multimodal Sentiment Analysis and Emotion Recognition</h2>
       <p class="authors">
         <strong>Yang Yang</strong>, Xunde Dong, and Yupeng Qiang.
+      </p>
+      <p class="conference-info">
+        <strong>In AAAI 2025</strong>
       </p>
     </div>
     <div class="action-buttons">
@@ -80,7 +89,7 @@
   <div class="paper-section">
     <div>
       <div class="journal-logo naacl-logo">
-        <span class="journal-name">NAACL 2024 Findings</span>
+        <span class="journal-name">NAACL</span>
       </div>
       <img src="../static/assets/img/publication_preview/CLGSI.png" alt="CLGSI" class="paper-img">
     </div>
@@ -88,6 +97,9 @@
       <h2 class="paper-title">CLGSI: A Multimodal Sentiment Analysis Framework based on Contrastive Learning Guided by Sentiment Intensity</h2>
       <p class="authors">
         <strong>Yang Yang</strong>, Xunde Dong, and Yupeng Qiang.
+      </p>
+      <p class="conference-info">
+        <strong>In NAACL 2024 Findings</strong>
       </p>
     </div>
     <div class="action-buttons">
