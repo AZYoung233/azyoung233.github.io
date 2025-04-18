@@ -43,9 +43,9 @@
    .button {
       padding: 2px 5px;
       /* 设置固定高度 */
-      height: 25px; 
+      height: 28px; 
       /* 让文字垂直居中 */
-      line-height: 25px; 
+      line-height: 28px; 
       text-decoration: none;
       border-radius: 3px;
       color: black; /* 设置文字为黑色 */
@@ -107,23 +107,13 @@
       opacity: 1;
     }
 
-   .info-icon {
-      display: inline-block;
-      width: 12px; /* 调整方框宽度 */
-      height: 12px; /* 调整方框高度 */
-      border: 1px solid #000; /* 方框边框 */
-      border-radius: 50%; /* 使方框变为圆形 */
-      text-align: center;
-      line-height: 12px; /* 让 i 垂直居中 */
-      font-family: Arial, sans-serif;
-      font-size: 12px;
-      font-weight: bold;
-      cursor: pointer;
-      /* 添加背景颜色为黑色 */
-      background-color: #000;
-      /* 添加文字颜色为白色 */
-      color: #fff;
+     .info-icon {
+        width: 13px;
+        height: 13px;
+        cursor: pointer;
     }
+
+
 </style>
 
 <!-- 第一篇论文 -->
@@ -141,7 +131,7 @@
         Xunde Dong<sup>*</sup> 
         and Yupeng Qiang.
         <span class="tooltip">
-          <span class="info-icon">i</span> <!-- 替换原有的 ！ -->
+          <img src="contents/publication_img/注释.svg" alt="Info" class="info-icon"> 
           <span class="tooltiptext"><sup>*</sup> denotes corresponding author</span>
         </span>
       </p>
@@ -172,7 +162,7 @@
         Xunde Dong<sup>*</sup> 
         and Yupeng Qiang.
         <span class="tooltip">
-          <span class="info-icon">i</span> <!-- 替换原有的 ！ -->
+          <img src="contents/publication_img/注释.svg" alt="Info" class="info-icon"> 
           <span class="tooltiptext"><sup>*</sup> denotes corresponding author</span>
         </span>
       </p>
