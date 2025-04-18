@@ -1,4 +1,4 @@
-<sup>#</sup>denotes co-first authors, ✉ denotes the corresponding author
+<sup>#</sup> denotes co-first authors, † denotes the corresponding author
 
 <style>
    .paper-section {
@@ -85,7 +85,7 @@
       <h2 class="paper-title">MSE-Adapter: A Lightweight Plugin Endowing LLMs with the Capability to Perform Multimodal Sentiment Analysis and Emotion Recognition</h2>
       <p class="authors">
         <strong>Yang Yang</strong>,
-        Xunde Dong✉  
+        Xunde Dong†  
         and Yupeng Qiang.
          </p>
       <p class="conference-info">
@@ -112,7 +112,7 @@
       <h2 class="paper-title">CLGSI: A Multimodal Sentiment Analysis Framework based on Contrastive Learning Guided by Sentiment Intensity</h2>
        <p class="authors">
         <strong>Yang Yang</strong>,
-        Xunde Dong✉  
+        Xunde Dong†  
         and Yupeng Qiang.
       </p>
       <p class="conference-info">
