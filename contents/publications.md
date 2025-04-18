@@ -42,9 +42,11 @@
 
    .button {
       padding: 5px 10px;
-      background-color: #f0f0f0;
+      /* background-color: white; 设置背景为白色 */
       text-decoration: none;
       border-radius: 3px;
+      color: black; /* 设置文字为黑色 */
+      border: 1px solid black; /* 添加 1 像素宽的黑色边框 */
     }
 
    .paper-img {
