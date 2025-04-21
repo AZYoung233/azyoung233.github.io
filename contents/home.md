@@ -34,7 +34,7 @@ My current passion interest lies in the application of LLM/Multimodal.
 2. <strong><strong>Multimodal Sentiment Analysis/Emotion Recognition</strong></strong> 
     * Contrastive learning: Improving the Performance of Contrastive Learning in multimodal sentiment Analysis, examples include [CLGSI](https://github.com/AZYoung233/CLGSI).
     * LLM for MSA/ERC: Apply LLM to MSA/ERC in the most efficient way, examples include [MSE-Adapter](https://github.com/AZYoung233/MSE-Adapter). 
-    * Enhance representation learning with external Lexicons
+    * Enhance representation learning with external Lexicons.
 
 #### Internship experience
 
