@@ -48,4 +48,4 @@ My current passion interest lies in the application of LLM/Multimodal.
 
 * </strong></strong>I am very enthusiastic about discussing academic issues or any interesting project-related topics! </strong></strong> If you'd like to engage in a discussion or collaborate, feel free to contact me via email at any time. 
 
-* ✉️ [1094823225 [at] qq.com](mailto:1094823225@qq.com)
+* ✉️ [azyang2001 [at] gmail.com](mailto:azyang2001@gmail.com)
