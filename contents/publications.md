@@ -80,7 +80,7 @@
       <div class="journal-logo aaai-logo">
         <span class="journal-name">AAAI</span>
       </div>
-      <img src="contents/publication_img/MSE-Adapter.jpg" alt="MSE-Adapter" class="paper-img">
+      <img src="contents/publication_img/MSE-Adapter.png" alt="MSE-Adapter" class="paper-img">
     </div>
     <div class="paper-info">
       <h2 class="paper-title">MSE-Adapter: A Lightweight Plugin Endowing LLMs with the Capability to Perform Multimodal Sentiment Analysis and Emotion Recognition</h2>
