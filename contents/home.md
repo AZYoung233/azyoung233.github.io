@@ -4,8 +4,7 @@
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-%230A4D92?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=ueMAa5wAAAAJ&hl=zh-CN)
 
 
-
-#### News
+<span style="font-weight: 800;  font-size: 1.2em; color:#8B0000;">News</span>
 
 <!-- <strong style="color:red;"><strong>I’m actively looking for 25Fall/26Spring MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>LLM </strong></strong> with <strong style="color:red;"><strong>good industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>! -->
 
@@ -18,12 +17,12 @@ One paper was accepted by AAAI 2025!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 One paper was accepted by NAACL 2024 Findings!
 
-
-#### Biography
+<span style="font-weight: 800;  font-size: 1.2em;">Biography</span>
 
 My name is Yang Yang. I am currently a third year masters student at South China University of Technology, supervised by [Xunde Dong](https://yanzhao.scut.edu.cn/ExpertInfo.aspx?zjbh=ngYfGNMTwMEvAqET7FVqsQ==). I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. Next I will be traveling to Sun Yat-sen University to pursue my PhD degree, supervised by [Liang Yao](https://yao8839836.github.io/). More details about me can be found in my [CV(English)](https://azyoung233.github.io/young2001.github.io/contents/My_cv.pdf)|[中文简历](https://azyoung233.github.io/young2001.github.io/contents/My_cv_zh.pdf).
 
-#### Research Interests
+
+<span style="font-weight: 800;  font-size: 1.2em;">Research Interests</span>
 
 My current passion interest lies in the application of LLM/Multimodal.
 
@@ -36,7 +35,8 @@ My current passion interest lies in the application of LLM/Multimodal.
     * LLM for MSA/ERC: Apply LLM to MSA/ERC in the most efficient way, examples include [MSE-Adapter](https://github.com/AZYoung233/MSE-Adapter). 
     * Enhance representation learning with external Lexicons.
 
-#### Internship experience
+
+<span style="font-weight: 800;  font-size: 1.2em;">Internship experience</span>
 
 * <strong><strong>International Digital Economy Academy(IDEA), ShenZhen, China      [June, 2024--September, 2024] </strong></strong>
     * LLM Algorithm Intern, ReadPaper
@@ -55,7 +55,7 @@ My current passion interest lies in the application of LLM/Multimodal.
     *   Bachelor of Science in Automation  
     *   2018.09--2022.06  -->
 
-#### Contact<p id="contact-info"></p>
+<span style="font-weight: 800;  font-size: 1.2em;">Contact<p id="contact-info"></p></span>
 
 * </strong></strong>I am very enthusiastic about discussing academic issues or any interesting project-related topics! </strong></strong> If you'd like to engage in a discussion or collaborate, feel free to contact me via email at any time. 
 
