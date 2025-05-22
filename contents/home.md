@@ -4,7 +4,7 @@
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-%230A4D92?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=ueMAa5wAAAAJ&hl=zh-CN)
 
 
-<span style="font-weight: 800;  font-size: 1.2em; color:#8B0000;">News</span>
+<span style="font-weight: 800;  font-size: 1.2em;">🔥News </span>
 
 <!-- <strong style="color:red;"><strong>I’m actively looking for 25Fall/26Spring MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>LLM </strong></strong> with <strong style="color:red;"><strong>good industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>! -->
 
