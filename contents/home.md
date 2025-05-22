@@ -42,7 +42,7 @@ My current passion interest lies in the application of LLM/Multimodal.
     * LLM Algorithm Intern, ReadPaper
     * Project topic: Chinese Paper Polishing LLM
 
-#### Education
+<!-- #### Education
 * <strong><strong>Sun Yat-sen University</strong></strong>
     *  First-year PhD student in Cybersecurity
     * 2025.06--Present
@@ -53,7 +53,7 @@ My current passion interest lies in the application of LLM/Multimodal.
     *   Advisor: [Prof. Xunde Dong](https://yanzhao.scut.edu.cn/ExpertInfo.aspx?zjbh=ngYfGNMTwMEvAqET7FVqsQ==) 
 * <strong><strong>Dongguan University of Technology</strong></strong>
     *   Bachelor of Science in Automation  
-    *   2018.09--2022.06 
+    *   2018.09--2022.06  -->
 
 #### Contact<p id="contact-info"></p>
 
