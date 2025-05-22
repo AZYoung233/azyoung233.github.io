@@ -38,11 +38,22 @@ My current passion interest lies in the application of LLM/Multimodal.
 
 #### Internship experience
 
-* International Digital Economy Academy(IDEA), ShenZhen, China      [June, 2024--September, 2024]
+* <strong><strong>International Digital Economy Academy(IDEA), ShenZhen, China      [June, 2024--September, 2024] </strong></strong>
     * LLM Algorithm Intern, ReadPaper
     * Project topic: Chinese Paper Polishing LLM
 
-
+#### Education
+* <strong><strong>Sun Yat-sen University</strong></strong>
+    *  First-year PhD student in Cybersecurity
+    * 2025.06--Present
+    * Advisor: [Prof. Liang Yao](https://yao8839836.github.io/)
+* <strong><strong>South China University of Technology </strong></strong>
+    *   Master of Science in Automation  
+    *   2022.09--2025.06 
+    *   Advisor: [Prof. Xunde Dong](https://yanzhao.scut.edu.cn/ExpertInfo.aspx?zjbh=ngYfGNMTwMEvAqET7FVqsQ==) 
+* <strong><strong>Dongguan University of Technology</strong></strong>
+    *   Bachelor of Science in Automation  
+    *   2018.09--2022.06 
 
 #### Contact<p id="contact-info"></p>
 
