@@ -75,7 +75,7 @@
     /* 添加 hr 样式 */
     hr.separator {
       border: 0;
-      border-top: 1px solid #ffffff; /* 白色分隔线 */
+      border-top: 1px solid #666666; /* 深灰色分隔线 */
       margin: 20px 0;
     }
 </style>
