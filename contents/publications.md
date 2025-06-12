@@ -74,31 +74,31 @@
 
 </style>
 
-<!-- <strong><strong>Preprint:</strong></strong>
+<strong><strong>Preprint:</strong></strong> 
+
 <div class="paper-section">
     <div>
-      <div class="journal-logo aaai-logo">
-        <span class="journal-name">AAAI</span>
+      <div class="journal-logo arXiv-logo">
+        <span class="journal-name">arXiv</span>
       </div>
-      <img src="contents/publication_img/MSE-Adapter.png" alt="MSE-Adapter" class="paper-img">
+      <img src="contents/publication_img/PMQ.png" alt="PMQ" class="paper-img">
     </div>
     <div class="paper-info">
-      <h2 class="paper-title">MSE-Adapter: A Lightweight Plugin Endowing LLMs with the Capability to Perform Multimodal Sentiment Analysis and Emotion Recognition</h2>
+      <h2 class="paper-title">Enhancing Contrastive Learning-based Electrocardiogram Pretrained Model with Patient Memory Queue</h2>
       <p class="authors">
         Xiaoyu Sun<sup>#</sup>,
         <strong>Yang Yang</strong><sup>#</sup>,
         and Xunde Dong†.
          </p>
       <p class="conference-info">
-        <strong>In AAAI 2025</strong>
+        <strong>In arXiv 2025. This paper was sponsored by the SCUT Student Research Project. </strong>
       </p>
     </div>
     <div class="action-buttons">
-      <a href="https://ojs.aaai.org/index.php/AAAI/article/download/34755/36910" class="button">Paper</a>
-      <a href="https://arxiv.org/pdf/2502.12478" class="button">arXiv</a>
-      <a href="https://github.com/AZYoung233/MSE-Adapter" class="button">Code</a>
+      <a href="https://arxiv.org/pdf/2506.06310" class="button">arXiv</a>
+      <a href="https://github.com/3hiuwoo/PMQ" class="button">Code</a>
     </div>
-  </div> -->
+  </div>
 
 <strong><strong>Conference Papers:</strong></strong>
 
