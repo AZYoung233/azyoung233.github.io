@@ -72,6 +72,12 @@
       background-color: #b31b1b;
     }
 
+    /* 添加 hr 样式 */
+    hr.separator {
+      border: 0;
+      border-top: 1px solid #cccccc; /* 淡淡的灰线 */
+      margin: 20px 0;
+    }
 </style>
 
 <strong><strong>Preprint:</strong></strong> 
@@ -99,6 +105,9 @@
       <a href="https://github.com/3hiuwoo/PMQ" class="button">Code</a>
     </div>
   </div>
+
+  <!-- 添加分隔线 -->
+  <hr class="separator">
 
 <strong><strong>Conference Papers:</strong></strong>
 
