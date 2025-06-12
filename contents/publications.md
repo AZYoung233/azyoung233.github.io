@@ -68,9 +68,37 @@
    .naacl-logo {
       background-color: #ed1d24;
     }
+    .arXiv-logo {
+      background-color: #b31b1b;
+    }
 
 </style>
 
+<!-- <strong><strong>Preprint:</strong></strong>
+<div class="paper-section">
+    <div>
+      <div class="journal-logo aaai-logo">
+        <span class="journal-name">AAAI</span>
+      </div>
+      <img src="contents/publication_img/MSE-Adapter.png" alt="MSE-Adapter" class="paper-img">
+    </div>
+    <div class="paper-info">
+      <h2 class="paper-title">MSE-Adapter: A Lightweight Plugin Endowing LLMs with the Capability to Perform Multimodal Sentiment Analysis and Emotion Recognition</h2>
+      <p class="authors">
+        Xiaoyu Sun<sup>#</sup>,
+        <strong>Yang Yang</strong><sup>#</sup>,
+        and Xunde Dong†.
+         </p>
+      <p class="conference-info">
+        <strong>In AAAI 2025</strong>
+      </p>
+    </div>
+    <div class="action-buttons">
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/download/34755/36910" class="button">Paper</a>
+      <a href="https://arxiv.org/pdf/2502.12478" class="button">arXiv</a>
+      <a href="https://github.com/AZYoung233/MSE-Adapter" class="button">Code</a>
+    </div>
+  </div> -->
 
 <strong><strong>Conference Papers:</strong></strong>
 
