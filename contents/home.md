@@ -19,7 +19,7 @@ One paper was accepted by NAACL 2024 Findings!
 
 <span style="font-weight: 800;  font-size: 1.2em;">Biography</span>
 
-My name is Yang Yang. I am currently a third year masters student at South China University of Technology, supervised by [Xunde Dong](https://yanzhao.scut.edu.cn/ExpertInfo.aspx?zjbh=ngYfGNMTwMEvAqET7FVqsQ==). I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. Next I will be traveling to Sun Yat-sen University to pursue my PhD degree, supervised by [Liang Yao](https://yao8839836.github.io/). More details about me can be found in my [CV(English)](https://azyoung233.github.io/young2001.github.io/contents/My_cv.pdf)|[中文简历](https://azyoung233.github.io/young2001.github.io/contents/My_cv_zh.pdf).
+My name is Yang Yang. I am currently an incoming PhD student at Sun Yat-sen University, supervised by [Liang Yao](https://yao8839836.github.io/). I received master's degree in Electronic Information from South China University of Technology, supervised by [Xunde Dong](https://yanzhao.scut.edu.cn/ExpertInfo.aspx?zjbh=ngYfGNMTwMEvAqET7FVqsQ==). I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022. More details about me can be found in my [CV(English)](https://azyoung233.github.io/young2001.github.io/contents/My_cv.pdf)|[中文简历](https://azyoung233.github.io/young2001.github.io/contents/My_cv_zh.pdf).
 
 
 <span style="font-weight: 800;  font-size: 1.2em;">Research Interests</span>
