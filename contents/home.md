@@ -45,6 +45,15 @@ My current passion interest lies in the application of LLM/Multimodal.
 
 <span style="font-weight: 800;  font-size: 1.2em;">Internship experience</span>
 
+🕒 2025.8 - now
+
+📍 <strong>Tencent inc.</strong>, ShenZhen, China
+
+💼 LVLM Research Intern, IEG CROS
+
+📖 Project topic: LVLM in Game domain
+
+
 🕒 2024.6 - 2024.9
 
 📍 <strong>International Digital Economy Academy(IDEA)</strong>, ShenZhen, China
