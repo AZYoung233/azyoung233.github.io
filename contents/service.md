@@ -1,2 +1,2 @@
-* Conference PC Member/Reviewer: Coming soon ￣□￣｜｜
+* Conference Reviewer: ARR May 2025 (secondary reviewer).
 * Journal Reviewer: TAC.
