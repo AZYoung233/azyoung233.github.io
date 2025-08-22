@@ -47,7 +47,7 @@ My current passion interest lies in the application of LLM/Multimodal.
 
 🕒 2025.8 - now
 
-📍 <strong>Tencent inc.</strong>, ShenZhen, China
+📍 <strong>Tencent Inc.</strong>, ShenZhen, China
 
 💼 LVLM Research Intern, IEG CROS
 
