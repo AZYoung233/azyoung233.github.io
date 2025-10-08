@@ -133,7 +133,7 @@
         and Yupeng Qiang.
          </p>
       <p class="conference-info">
-        <strong>In AAAI 2025</strong>
+        <strong>In AAAI 2025.</strong>
       </p>
     </div>
     <div class="action-buttons">
@@ -160,7 +160,7 @@
         and Yupeng Qiang.
       </p>
       <p class="conference-info">
-        <strong>In NAACL 2024 Findings</strong>
+        <strong>In NAACL 2024 Findings.</strong>
       </p>
     </div>
     <div class="action-buttons">
