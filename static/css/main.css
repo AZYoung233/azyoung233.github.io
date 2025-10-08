@@ -436,6 +436,57 @@ section .main-body{
     }
 }
 
+/* GitHub徽章移动端优化 */
+@media screen and (max-width: 768px) {
+    #project-md a[href*="github.com"] img {
+        max-width: 100%;
+        height: auto;
+        transform: scale(0.8); /* 缩小徽章尺寸 */
+        margin: 5px;
+    }
+    
+    #project-md a[href*="github.com"] {
+        display: inline-block;
+        margin: 0 5px 10px 5px;
+    }
+    
+    /* 徽章容器布局优化 */
+    #project-md > a:first-child,
+    #project-md > a:nth-child(2),
+    #project-md > a:nth-child(3) {
+        display: inline-block;
+        margin: 0 8px 12px 8px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #project-md a[href*="github.com"] img {
+        transform: scale(0.7); /* 更小屏幕进一步缩小 */
+        margin: 3px;
+    }
+    
+    #project-md a[href*="github.com"] {
+        margin: 0 3px 8px 3px;
+    }
+    
+    /* 超小屏幕改为垂直布局 */
+    @media screen and (max-width: 400px) {
+        #project-md > a:first-child,
+        #project-md > a:nth-child(2),
+        #project-md > a:nth-child(3) {
+            display: block;
+            margin: 0 auto 8px auto;
+            text-align: center;
+        }
+        
+        #project-md a[href*="github.com"] img {
+            transform: scale(0.65);
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
+
 @media screen and (max-width: 576px) {
     #project-md div[style*="display: flex"] {
         gap: 10px;
