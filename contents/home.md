@@ -6,27 +6,30 @@
 
 <span style="font-weight: 800;  font-size: 1.2em;">🔥News </span>
 
-<!-- <strong style="color:red;"><strong>I’m actively looking for 25Fall/26Spring MLLM/LLM PhD Opportunity.</strong></strong> If you need a reliable student who is familiar with <strong style="color:red;"><strong>LLM </strong></strong> with <strong style="color:red;"><strong>good industry experiences</strong></strong>, feel free to <a href="#contact-info">Contact Me</a>! -->
-
-<strong>Oct 06, 2025</strong>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Three papers were accepted as short papers by BIBM 2025！
-
-<strong>Aug 22, 2025</strong>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-I will start my research internship journey at IEG CROS!
-
-<strong>Aug 21, 2025</strong>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-One paper was accepted by EMNLP 2025 Main Conference! 
-
-<strong>Dec 10, 2024</strong>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-One paper was accepted by AAAI 2025!
-
-<strong>Mar 03, 2024</strong>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-One paper was accepted by NAACL 2024 Findings!
+<div class="news-container">
+    <div class="news-scroll">
+        <div class="news-item">
+            <strong>Oct 06, 2025</strong>
+            <span class="news-content">Three papers were accepted as short papers by BIBM 2025！</span>
+        </div>
+        <div class="news-item">
+            <strong>Aug 22, 2025</strong>
+            <span class="news-content">I will start my research internship journey at IEG CROS!</span>
+        </div>
+        <div class="news-item">
+            <strong>Aug 21, 2025</strong>
+            <span class="news-content">One paper was accepted by EMNLP 2025 Main Conference!</span>
+        </div>
+        <div class="news-item">
+            <strong>Dec 10, 2024</strong>
+            <span class="news-content">One paper was accepted by AAAI 2025!</span>
+        </div>
+        <div class="news-item">
+            <strong>Mar 03, 2024</strong>
+            <span class="news-content">One paper was accepted by NAACL 2024 Findings!</span>
+        </div>
+    </div>
+</div>
 
 <span style="font-weight: 800;  font-size: 1.2em;">Biography</span>
 

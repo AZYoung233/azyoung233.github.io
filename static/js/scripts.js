@@ -108,4 +108,21 @@ window.addEventListener('DOMContentLoaded', event => {
             imageObserver.observe(img);
         }
     });
+
+    // News 滚动容器交互优化
+    window.addEventListener('DOMContentLoaded', event => {
+        // News 滚动优化
+        const newsScroll = document.querySelector('.news-scroll');
+        if (newsScroll) {
+            // 添加滚动提示
+            if (newsScroll.scrollHeight > newsScroll.clientHeight) {
+                newsScroll.classList.add('has-scroll');
+            }
+    
+            // 触摸设备优化
+            if ('ontouchstart' in window) {
+                newsScroll.style.WebkitOverflowScrolling = 'touch';
+            }
+        }
+    });
 });
