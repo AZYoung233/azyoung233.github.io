@@ -1,4 +1,3 @@
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=flat-square&logo=github&logoColor=white)](https://github.com/AZYoung233)
 [![Total Stars](https://img.shields.io/github/stars/AZYoung233?label=Total%20Stars&logo=github&style=flat-square&color=%23eac54f)](https://github.com/AZYoung233)
 [![GitHub followers](https://img.shields.io/github/followers/AZYoung233?style=flat-square&logo=github&label=Followers)](https://github.com/AZYoung233)
 
