@@ -72,6 +72,10 @@
       background-color: #b31b1b;
     }
 
+    .bibm-logo {
+      background-color: #e6a937;
+    }
+
     /* 添加 hr 样式 */
     hr.separator {
       border: 0;
@@ -82,10 +86,16 @@
 
 <strong><strong>Preprint:</strong></strong> 
 
+<!-- 添加分隔线 -->
+<hr class="separator">
+
+
+<strong><strong>Conference Papers:</strong></strong>
+
 <div class="paper-section">
     <div>
-      <div class="journal-logo arXiv-logo">
-        <span class="journal-name">arXiv</span>
+      <div class="journal-logo bibm-logo">
+        <span class="journal-name">BIBM</span>
       </div>
       <img src="contents/publication_img/PMQ.png" alt="PMQ" class="paper-img">
     </div>
@@ -97,7 +107,7 @@
         and Xunde Dong†.
          </p>
       <p class="conference-info">
-        <strong>In arXiv 2025. This paper was sponsored by the SCUT Student Research Project. </strong>
+        <strong>In BIBM 2025 Short Paper. This paper was sponsored by the SCUT Student Research Project. </strong>
       </p>
     </div>
     <div class="action-buttons">
@@ -106,10 +116,6 @@
     </div>
   </div>
 
-  <!-- 添加分隔线 -->
-  <hr class="separator">
-
-<strong><strong>Conference Papers:</strong></strong>
 
 <!-- 第一篇论文 -->
 <div class="paper-section">
