@@ -259,7 +259,7 @@ section .main-body{
 
 .news-date {
     display: table-cell;
-    width: 180px;
+    width: 220px;
     min-width: 140px;
     font-weight: 600;
     color: #2c3e50;
@@ -336,5 +336,112 @@ section .main-body{
     
     .news-content {
         font-size: 0.85rem;
+    }
+}
+
+/* Publications 移动端优化 */
+@media screen and (max-width: 768px) {
+    .paper-section {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 15px;
+        padding: 10px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        background: #f9f9f9;
+    }
+    
+    .journal-logo {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .paper-img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto 10px auto;
+        display: block;
+    }
+    
+    .paper-title {
+        font-size: 1.2rem;
+        line-height: 1.4;
+        margin-bottom: 8px;
+    }
+    
+    .authors, .conference-info {
+        font-size: 0.9rem;
+        line-height: 1.3;
+        margin-bottom: 8px;
+    }
+    
+    .action-buttons {
+        justify-content: center;
+        gap: 8px;
+        margin-top: 10px;
+    }
+    
+    .button {
+        padding: 4px 8px;
+        height: 28px;
+        line-height: 20px;
+        font-size: 0.85rem;
+        min-width: 60px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .paper-section {
+        padding: 8px;
+        margin-bottom: 12px;
+    }
+    
+    .paper-title {
+        font-size: 1.1rem;
+    }
+    
+    .authors, .conference-info {
+        font-size: 0.85rem;
+    }
+    
+    .action-buttons {
+        flex-wrap: wrap;
+    }
+    
+    .button {
+        font-size: 0.8rem;
+        padding: 3px 6px;
+        min-width: 55px;
+    }
+}
+
+/* Code Repository 移动端优化 */
+@media screen and (max-width: 768px) {
+    #project-md div[style*="display: flex"] {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    #project-md img {
+        max-width: 100%;
+        width: 300px !important;
+        height: auto;
+    }
+    
+    #project-md a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #project-md div[style*="display: flex"] {
+        gap: 10px;
+    }
+    
+    #project-md img {
+        width: 280px !important;
     }
 }
