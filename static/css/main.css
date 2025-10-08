@@ -1,6 +1,5 @@
 @import "./styles.css";
 
-
 :root{
     --h-title-color:#000000;
 }
@@ -53,7 +52,6 @@ section .main-body{
     line-height: 2.4rem;
 }
 
-
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
 }
@@ -61,8 +59,6 @@ section .main-body{
 .bg-gradient-primary-to-secondary-gray {
     background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
 }
-
-
 
 .on-top {
     position: relative;
@@ -86,8 +82,6 @@ section .main-body{
     background: rgba(0, 0, 0, 0.4);
 }
 
-
-
 .photo {
     position: relative;
 }
@@ -97,7 +91,6 @@ section .main-body{
     height: 12rem;
     margin-top: 8rem;
 }
-
 
 .photo .screen {
     position: absolute;
@@ -110,21 +103,128 @@ section .main-body{
     cursor: pointer;
 }
 
+/* 移动端优化 - 导航栏 */
 @media screen and (max-width: 991px) {
-
     .photo img {
         height: 12rem;
         margin-top: 3rem;
     }
-
+    
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .nav-link {
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+    }
 }
 
-@media screen and (max-width: 736px) {
+/* 移动端优化 - 小屏幕设备 */
+@media screen and (max-width: 768px) {
+    .top-section {
+        padding: 6rem 0;
+        height: 20rem;
+    }
+    
+    .photo img {
+        height: 10rem;
+        margin-top: 5rem;
+        margin-right: 0;
+    }
+    
+    section header h2 {
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+    
+    section .main-body {
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+    
+    .container.px-5 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    
+    .display-3 {
+        font-size: 2rem;
+    }
+}
 
+/* 移动端优化 - 超小屏幕设备 */
+@media screen and (max-width: 576px) {
+    .top-section {
+        padding: 4rem 0;
+        height: 18rem;
+    }
+    
+    .photo img {
+        height: 8rem;
+        margin-top: 3rem;
+    }
+    
+    section header h2 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    
+    section .main-body {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    .nav-link {
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .top-section h2.display-3 {
+        font-size: 1.8rem;
+    }
+}
+
+/* 移动端优化 - 横向布局优化 */
+@media screen and (max-width: 736px) {
     .photo img {
         height: 7rem;
         margin-top: 7rem;
     }
-
+    
+    .row {
+        flex-direction: column;
+    }
+    
+    .col-lg-8, .col-lg-4 {
+        width: 100%;
+    }
+    
+    .top-section .row {
+        text-align: center;
+    }
 }
 
+/* 触摸设备优化 */
+@media (hover: none) and (pointer: coarse) {
+    .nav-link {
+        padding: 0.8rem 1rem;
+    }
+    
+    .navbar-toggler {
+        padding: 0.5rem 0.75rem;
+        font-size: 1.2rem;
+    }
+}
+
+/* 高分辨率屏幕优化 */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .photo img {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}
