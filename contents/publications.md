@@ -65,7 +65,7 @@
       background-color: #003973;
     }
 
-   .naacl-logo {
+   .acl_series-logo {
       background-color: #ed1d24;
     }
     .arXiv-logo {
@@ -91,6 +91,28 @@
 
 
 <strong><strong>Conference Papers:</strong></strong>
+
+<div class="paper-section">
+    <div>
+      <div class="journal-logo acl_series-logo">
+        <span class="journal-name">EMNLP</span>
+      </div>
+      <img src="contents/publication_img/UNCO.png" alt="UNCO" class="paper-img">
+    </div>
+    <div class="paper-info">
+      <h2 class="paper-title">UnCo: Uncertainty-Driven Collaborative Framework of Large and Small Models for Grounded Multimodal NER</h2>
+      <p class="authors">
+      Jielong Tang, <strong>Yang Yang</strong>, Jianxing Yu, Zhen-Xing Wang, Haoyuan Liang, Liang Yao and Jian Yin†.
+         </p>
+      <p class="conference-info">
+        <strong>In EMNLP 2025 Main Conference. </strong>
+      </p>
+    </div>
+    <div class="action-buttons">
+      <a href="https://aclanthology.org/2025.emnlp-main.388.pdf" class="button">Paper</a>
+      <a href="https://github.com/tangjielong928/UnCo" class="button">Code</a>
+    </div>
+  </div>
 
 <div class="paper-section">
     <div>
@@ -146,7 +168,7 @@
   <!-- 第二篇论文 -->
   <div class="paper-section">
     <div>
-      <div class="journal-logo naacl-logo">
+      <div class="journal-logo acl_series-logo">
         <span class="journal-name">NAACL</span>
       </div>
       <img src="contents/publication_img/CLGSI.png" alt="CLGSI" class="paper-img">

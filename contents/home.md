@@ -40,14 +40,14 @@ My name is Yang Yang. I am currently a First-year PhD student at Sun Yat-sen Uni
 
 My current passion interest lies in the application of LLM/Multimodal.
 
-1. <strong><strong>LLM & LLM applications</strong></strong> 
+<!-- 1. <strong><strong>LLM & LLM applications</strong></strong> 
     * Chinese Paper Polishing LLM
     * Automated optimization of prompt
 
 2. <strong><strong>Multimodal Sentiment Analysis/Emotion Recognition</strong></strong> 
     * Contrastive learning: Improving the Performance of Contrastive Learning in multimodal sentiment Analysis, examples include [CLGSI](https://github.com/AZYoung233/CLGSI).
     * LLM for MSA/ERC: Apply LLM to MSA/ERC in the most efficient way, examples include [MSE-Adapter](https://github.com/AZYoung233/MSE-Adapter). 
-    * Enhance representation learning with external Lexicons.
+    * Enhance representation learning with external Lexicons. -->
 
 
 <span style="font-weight: 800;  font-size: 1.2em;">Internship experience</span>
