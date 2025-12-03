@@ -171,10 +171,11 @@
     </div>
   </div>
 
-
 <!-- 添加分隔线 -->
 <hr class="separator">
+
 <strong><strong>Journal Papers:</strong></strong>
+
   <div class="paper-section">
     <div>
       <div class="journal-logo eswa-logo">
