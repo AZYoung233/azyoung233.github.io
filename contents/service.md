@@ -1,2 +1,2 @@
-* Conference Reviewer: ARR May 2025 (secondary reviewer).
+* Conference Reviewer: ACL ARR, ICASSP.
 * Journal Reviewer: TAC.

@@ -76,6 +76,10 @@
       background-color: #e6a937;
     }
 
+    .eswa-logo {
+      background-color: #519dac;
+    }
+
     /* 添加 hr 样式 */
     hr.separator {
       border: 0;
@@ -111,30 +115,6 @@
     <div class="action-buttons">
       <a href="https://aclanthology.org/2025.emnlp-main.388.pdf" class="button">Paper</a>
       <a href="https://github.com/tangjielong928/UnCo" class="button">Code</a>
-    </div>
-  </div>
-
-<div class="paper-section">
-    <div>
-      <div class="journal-logo bibm-logo">
-        <span class="journal-name">BIBM</span>
-      </div>
-      <img src="contents/publication_img/PMQ.png" alt="PMQ" class="paper-img">
-    </div>
-    <div class="paper-info">
-      <h2 class="paper-title">Enhancing Contrastive Learning-based Electrocardiogram Pretrained Model with Patient Memory Queue</h2>
-      <p class="authors">
-        Xiaoyu Sun<sup>#</sup>,
-        <strong>Yang Yang</strong><sup>#</sup>,
-        and Xunde Dong†.
-         </p>
-      <p class="conference-info">
-        <strong>In BIBM 2025 Short Paper. This paper was sponsored by the SCUT Student Research Project. </strong>
-      </p>
-    </div>
-    <div class="action-buttons">
-      <a href="https://arxiv.org/pdf/2506.06310" class="button">arXiv</a>
-      <a href="https://github.com/3hiuwoo/PMQ" class="button">Code</a>
     </div>
   </div>
 
@@ -190,3 +170,57 @@
       <a href="https://github.com/AZYoung233/CLGSI" class="button">Code</a>
     </div>
   </div>
+
+
+<!-- 添加分隔线 -->
+<hr class="separator">
+<strong><strong>Journal Papers:</strong></strong>
+  <div class="paper-section">
+    <div>
+      <div class="journal-logo eswa-logo">
+        <span class="journal-name">ESWA</span>
+      </div>
+      <img src="contents/publication_img/CP.png" alt="CP" class="paper-img">
+    </div>
+    <!-- 这里是绝对路径！特别傻逼 -->
+    <div class="paper-info">
+      <h2 class="paper-title">Large language models are contrastive reasoners</h2>
+       <p class="authors">
+        Liang Yao† , <strong>Yang Yang</strong>.
+      </p>
+      <p class="conference-info">
+        <strong>In ESWA 2026.</strong>
+      </p>
+    </div>
+    <div class="action-buttons">
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417425040229" class="button">Paper</a>
+      <a href="https://github.com/yao8839836/cp" class="button">Code</a>
+    </div>
+  </div>
+
+
+
+<!-- BIBM的论文，就不放了 -->
+<!-- <div class="paper-section">
+    <div>
+      <div class="journal-logo bibm-logo">
+        <span class="journal-name">BIBM</span>
+      </div>
+      <img src="contents/publication_img/PMQ.png" alt="PMQ" class="paper-img">
+    </div>
+    <div class="paper-info">
+      <h2 class="paper-title">Enhancing Contrastive Learning-based Electrocardiogram Pretrained Model with Patient Memory Queue</h2>
+      <p class="authors">
+        Xiaoyu Sun<sup>#</sup>,
+        <strong>Yang Yang</strong><sup>#</sup>,
+        and Xunde Dong†.
+         </p>
+      <p class="conference-info">
+        <strong>In BIBM 2025 Short Paper. This paper was sponsored by the SCUT Student Research Project. </strong>
+      </p>
+    </div>
+    <div class="action-buttons">
+      <a href="https://arxiv.org/pdf/2506.06310" class="button">arXiv</a>
+      <a href="https://github.com/3hiuwoo/PMQ" class="button">Code</a>
+    </div>
+  </div> -->
