@@ -1,89 +1,76 @@
+<div class="row">
+<!-- Left Column: Info & Timeline -->
+<div class="col-lg-8">
 
-
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AZYoung233)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-%230A4D92?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=ueMAa5wAAAAJ&hl=zh-CN)
-
-
-<span style="font-weight: 800;  font-size: 1.2em;">🔥News </span>
-
-<div class="news-container">
-    <div class="news-scroll">
-        <div class="news-item">
-            <div class="news-date"><strong>Oct 06, 2025</strong></div>
-            <div class="news-content">Three papers were accepted as short papers by BIBM 2025！</div>
-        </div>
-        <div class="news-item">
-            <div class="news-date"><strong>Aug 22, 2025</strong></div>
-            <div class="news-content">I will start my research internship journey at IEG CROS!</div>
-        </div>
-        <div class="news-item">
-            <div class="news-date"><strong>Aug 21, 2025</strong></div>
-            <div class="news-content">One paper was accepted by EMNLP 2025 Main Conference!</div>
-        </div>
-        <div class="news-item">
-            <div class="news-date"><strong>Dec 10, 2024</strong></div>
-            <div class="news-content">One paper was accepted by AAAI 2025!</div>
-        </div>
-        <div class="news-item">
-            <div class="news-date"><strong>Mar 03, 2024</strong></div>
-            <div class="news-content">One paper was accepted by NAACL 2024 Findings!</div>
-        </div>
-    </div>
+<div class="mb-4">
+<div class="d-flex align-items-center mb-2">
+<i class="bi bi-envelope me-2 text-secondary"></i>
+<a href="mailto:azyang2001@gmail.com" class="text-decoration-none text-dark">azyang2001@gmail.com</a>
+</div>
+<div class="d-flex flex-wrap mt-3">
+<a href="https://github.com/AZYoung233" class="profile-link">
+<i class="bi bi-github"></i> GitHub
+</a>
+<a href="https://scholar.google.com/citations?user=ueMAa5wAAAAJ&hl=zh-CN" class="profile-link">
+<i class="bi bi-book"></i> Google Scholar
+</a>
+<a href="contents/My_cv.pdf" class="profile-link">
+<i class="bi bi-file-earmark-person"></i> CV (En)
+</a>
+<a href="contents/My_cv_zh.pdf" class="profile-link">
+<i class="bi bi-file-earmark-person"></i> CV (Zh)
+</a>
+</div>
 </div>
 
-<span style="font-weight: 800;  font-size: 1.2em;">Biography</span>
+<h3 class="mb-4 mt-5" style="color: #2c3e50;"><i class="bi bi-book me-2"></i>Education</h3>
 
-My name is Yang Yang. I am currently a First-year PhD student at Sun Yat-sen University, supervised by [Liang Yao](https://yao8839836.github.io/). I received my master's degree in Electronic Information from South China University of Technology in 2025, supervised by [Xunde Dong](https://yanzhao.scut.edu.cn/ExpertInfo.aspx?zjbh=ngYfGNMTwMEvAqET7FVqsQ==). I received my Bachelor's degree in Automation from Dongguan University of Technology in 2022.  More details about me can be found in my [CV(English)](https://azyoung233.github.io/contents/My_cv.pdf)|[中文简历](https://azyoung233.github.io/contents/My_cv_zh.pdf).
+<div class="timeline-item">
+<div class="timeline-date">Sept. 2025 - Present</div>
+<div class="timeline-title">Sun Yat-sen University</div>
+<div class="timeline-desc">First-year Ph.D student in Cybersecurity, supervised by <a href="https://yao8839836.github.io/">Liang Yao</a>.</div>
+</div>
 
+<div class="timeline-item">
+<div class="timeline-date">Sept. 2022 - June 2025</div>
+<div class="timeline-title">South China University of Technology</div>
+<div class="timeline-desc">M.S. in Electronic Information, supervised by <a href="https://yanzhao.scut.edu.cn/ExpertInfo.aspx?zjbh=ngYfGNMTwMEvAqET7FVqsQ==">Xunde Dong</a>.</div>
+</div>
 
-<span style="font-weight: 800;  font-size: 1.2em;">Research Interests</span>
+<div class="timeline-item">
+<div class="timeline-date">Sept. 2018 - June 2022</div>
+<div class="timeline-title">Dongguan University of Technology</div>
+<div class="timeline-desc">B.S. in Automation.</div>
+</div>
 
-My current passion interest lies in the application of LLM/Multimodal.
+<h3 class="mb-4 mt-5" style="color: #2c3e50;"><i class="bi bi-briefcase me-2"></i>Experience</h3>
 
-<!-- 1. <strong><strong>LLM & LLM applications</strong></strong> 
-    * Chinese Paper Polishing LLM
-    * Automated optimization of prompt
+<div class="timeline-item">
+<div class="timeline-date">Aug. 2025 - Present <span class="badge bg-secondary ms-2" style="font-size: 0.7em; vertical-align: middle;">Internship</span></div>
+<div class="timeline-title">Tencent Inc.</div>
+<div class="timeline-desc">LVLM Research Intern at IEG CROS. Working on LVLM in Game domain.</div>
+</div>
 
-2. <strong><strong>Multimodal Sentiment Analysis/Emotion Recognition</strong></strong> 
-    * Contrastive learning: Improving the Performance of Contrastive Learning in multimodal sentiment Analysis, examples include [CLGSI](https://github.com/AZYoung233/CLGSI).
-    * LLM for MSA/ERC: Apply LLM to MSA/ERC in the most efficient way, examples include [MSE-Adapter](https://github.com/AZYoung233/MSE-Adapter). 
-    * Enhance representation learning with external Lexicons. -->
+<div class="timeline-item">
+<div class="timeline-date">June 2024 - Sept. 2024 <span class="badge bg-secondary ms-2" style="font-size: 0.7em; vertical-align: middle;">Internship</span></div>
+<div class="timeline-title">International Digital Economy Academy (IDEA)</div>
+<div class="timeline-desc">LLM Algorithm Intern at ReadPaper. Worked on Chinese Paper Polishing LLM.</div>
+</div>
 
+<h3 class="mb-3 mt-5" style="color: #2c3e50;">Research Interests</h3>
 
-<span style="font-weight: 800;  font-size: 1.2em;">Internship experience</span>
+<div class="d-flex flex-wrap">
+<span class="badge-interest">LLM/LVLM & Applications</span>
+<span class="badge-interest">Agentic RL</span>
+</div>
 
-🕒 2025.8 - now
+</div>
 
-📍 <strong>Tencent Inc.</strong>, ShenZhen, China
+<!-- Right Column: Photo -->
+<div class="col-lg-4 mt-4 mt-lg-0 text-center">
+<div class="photo-sticky">
+<img src="static/assets/img/photo.jpg" class="img-fluid rounded shadow-lg" style="width: 100%; max-width: 320px; object-fit: cover; border: 8px solid #fff;" alt="Yang Yang">
+</div>
+</div>
 
-💼 LVLM Research Intern, IEG CROS
-
-📖 Project topic: LVLM in Game domain
-
-
-🕒 2024.6 - 2024.9
-
-📍 <strong>International Digital Economy Academy(IDEA)</strong>, ShenZhen, China
-
-💼 LLM Algorithm Intern, ReadPaper
-
-📖 Project topic: Chinese Paper Polishing LLM 
-
-<!-- #### Education
-* <strong><strong>Sun Yat-sen University</strong></strong>
-    *  First-year PhD student in Cybersecurity
-    * 2025.06--Present
-    * Advisor: [Prof. Liang Yao](https://yao8839836.github.io/)
-* <strong><strong>South China University of Technology </strong></strong>
-    *   Master of Science in Automation  
-    *   2022.09--2025.06 
-    *   Advisor: [Prof. Xunde Dong](https://yanzhao.scut.edu.cn/ExpertInfo.aspx?zjbh=ngYfGNMTwMEvAqET7FVqsQ==) 
-* <strong><strong>Dongguan University of Technology</strong></strong>
-    *   Bachelor of Science in Automation  
-    *   2018.09--2022.06  -->
-
-<span style="font-weight: 800;  font-size: 1.2em;">Contact<p id="contact-info"></p></span>
-
-* </strong></strong>I am very enthusiastic about discussing academic issues or any interesting project-related topics! </strong></strong> If you'd like to engage in a discussion or collaborate, feel free to contact me via email at any time. 
-
-* ✉️ [azyang2001 [at] gmail.com](mailto:azyang2001@gmail.com)
+</div>

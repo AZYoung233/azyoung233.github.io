@@ -4,23 +4,30 @@
    .paper-section {
       display: flex;
       align-items: start;
-      gap: 20px;
-      margin-bottom: 20px;
+      gap: 30px;
+      margin-bottom: 35px;
+      padding: 20px;
+      background: #fafbfc;
+      border-radius: 12px;
+      border: 1px solid #e8e8e8;
+      transition: box-shadow 0.2s ease;
+    }
+
+   .paper-section:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
 
    .journal-logo {
-      padding: 2px 10px;
-      border-radius: 5px 5px 0 0;
-      /* 添加最小宽度，可根据实际情况调整 */
-      width: 200px; 
-      /* 如果想固定宽度，可使用 width 属性 */
-      /* width: 150px; */ 
-      text-align: center; /* 让文字居中显示 */
+      padding: 4px 12px;
+      border-radius: 6px 6px 0 0;
+      width: 180px; 
+      text-align: center;
     }
 
    .journal-name {
       color: white;
       font-weight: bold;
+      font-size: 0.95rem;
     }
 
    .paper-info {
@@ -29,36 +36,67 @@
 
    .paper-title {
       margin-top: 0;
-      font-size: 1.5rem;
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+      line-height: 1.5;
+      color: #1a1a2e;
     }
 
-   .authors,
-   .publication-info {
+   .authors {
+      margin-bottom: 8px;
+      color: #555;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+   .conference-info {
       margin-bottom: 0;
+      font-size: 0.9rem;
     }
 
    .action-buttons {
       display: flex;
-      gap: 10px;
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-end;
     }
 
    .button {
-      padding: 2px 5px;
-      /* 设置固定高度 */
-      height: 30px; 
-      /* 让文字垂直居中 */
-      line-height: 28px; 
+      padding: 6px 14px;
+      height: auto; 
+      line-height: 1.4; 
       text-decoration: none;
-      border-radius: 3px;
-      color: black; /* 设置文字为黑色 */
-      border: 1px solid black; /* 添加 1 像素宽的黑色边框 */
+      border-radius: 6px;
+      color: #333;
+      border: 1px solid #ccc;
+      background: #fff;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      min-width: 70px;
+      text-align: center;
+    }
+
+   .button:hover {
+      background: #f0f0f0;
+      border-color: #999;
+      color: #000;
     }
 
    .paper-img {
       max-width: 100%;
-      width: 200px; /* 可根据需要调整宽度 */
-      height: auto;
-      margin-bottom: 10px;
+      width: 180px;
+      height: 120px;
+      object-fit: contain;
+      background: #fff;
+      margin-bottom: 0;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+   .paper-img-container {
+      width: 180px;
+      flex-shrink: 0;
     }
 
     .aaai-logo {
@@ -83,21 +121,33 @@
     /* 添加 hr 样式 */
     hr.separator {
       border: 0;
-      border-top: 1px solid #666666; /* 深灰色分隔线 */
-      margin: 20px 0;
+      border-top: 2px solid #e0e0e0;
+      margin: 30px 0;
+    }
+
+    /* Section titles */
+    .pub-section-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 3px solid #4a90e2;
+      display: inline-block;
     }
 </style>
 
-<strong><strong>Preprint:</strong></strong> 
+<div class="pub-section-title">Preprint</div>
+
+<p style="color: #888; font-style: italic;">Coming soon...</p>
 
 <!-- 添加分隔线 -->
 <hr class="separator">
 
-
-<strong><strong>Conference Papers:</strong></strong>
+<div class="pub-section-title">Conference Papers</div>
 
 <div class="paper-section">
-    <div>
+    <div class="paper-img-container">
       <div class="journal-logo acl_series-logo">
         <span class="journal-name">EMNLP</span>
       </div>
@@ -121,7 +171,7 @@
 
 <!-- 第一篇论文 -->
 <div class="paper-section">
-    <div>
+    <div class="paper-img-container">
       <div class="journal-logo aaai-logo">
         <span class="journal-name">AAAI</span>
       </div>
@@ -146,8 +196,8 @@
   </div>
 
   <!-- 第二篇论文 -->
-  <div class="paper-section">
-    <div>
+<div class="paper-section">
+    <div class="paper-img-container">
       <div class="journal-logo acl_series-logo">
         <span class="journal-name">NAACL</span>
       </div>
@@ -174,10 +224,10 @@
 <!-- 添加分隔线 -->
 <hr class="separator">
 
-<strong><strong>Journal Papers:</strong></strong>
+<div class="pub-section-title">Journal Papers</div>
 
   <div class="paper-section">
-    <div>
+    <div class="paper-img-container">
       <div class="journal-logo eswa-logo">
         <span class="journal-name">ESWA</span>
       </div>

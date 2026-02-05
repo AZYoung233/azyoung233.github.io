@@ -44,6 +44,7 @@ section header h2{
     color: var(--h-title-color);
     font-size: 2.3rem;
     line-height: 4rem;
+    margin-bottom: 0; /* Remove bottom margin as it will be handled by card padding */
 }
 
 section .main-body{
@@ -52,12 +53,43 @@ section .main-body{
     line-height: 2.4rem;
 }
 
-.bg-gradient-primary-to-secondary-light {
-    background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
+/* Global Background */
+body {
+    background-color: #f4f6f8;
 }
 
+/* Card Style */
+.card-section {
+    background-color: #ffffff;
+    border-radius: 16px; /* 稍微增加圆角 */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* 优化阴影，使其更柔和且有层次感 */
+    padding: 3rem; /* 增加桌面端内边距，增加呼吸感 */
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0,0,0,0.02);
+    
+    /* 固定宽度与居中布局 */
+    max-width: 980px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; /* 确保层级正确 */
+}
+
+/* Reduce section spacing */
+section.mt5 {
+    margin-top: 2rem !important; /* 稍微增加顶部间距，使卡片之间分离更清晰 */
+    padding-top: 0 !important;
+}
+
+section.md5 {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Override Section Backgrounds to be transparent */
+.bg-gradient-primary-to-secondary-light,
 .bg-gradient-primary-to-secondary-gray {
-    background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
+    background: transparent !important;
 }
 
 .on-top {
@@ -229,176 +261,244 @@ section .main-body{
     }
 }
 
-/* News 滚动容器样式 - 表格布局版本 */
+/* News 滚动容器样式 - 新设计 */
 .news-container {
     margin: 1rem 0;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    background: #fafafa;
-    overflow: hidden;
+    /* border: 1px solid #e0e0e0; */ /* Removed border */
+    /* background: #fafafa; */ /* Removed background */
+    /* border-radius: 8px; */
+    overflow: hidden; /* 防止内容溢出容器 */
 }
 
 .news-scroll {
-    max-height: 200px;
-    overflow-y: auto;
-    padding: 0.5rem;
+    max-height:250px; /* 增加高度以完整显示3条新闻 */
+    overflow-y: auto; /* 启用垂直滚动 */
+    padding-right: 10px; /* 为滚动条预留空间 */
+}
+
+/* 自定义滚动条样式 */
+.news-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.news-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.news-scroll::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+.news-scroll::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
 }
 
 .news-item {
-    display: table;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border-radius: 4px;
-    transition: background-color 0.2s ease;
+    margin-bottom: 1.2rem; /* 稍微减小间距 */
+    padding: 0 0 0 1.5rem;
+    border-left: 4px solid #4a90e2; /* Blue vertical line */
+    border-radius: 0;
+    background-color: transparent;
+    transition: none;
+    position: relative;
 }
 
 .news-item:hover {
-    background-color: #f0f0f0;
+    background-color: transparent;
 }
 
 .news-date {
-    display: table-cell;
-    width: 220px;
-    min-width: 140px;
+    display: block;
+    width: auto;
     font-weight: 600;
-    color: #2c3e50;
-    vertical-align: middle; /* 从top改为middle居中对齐 */
-    padding-right: 1rem;
-    white-space: nowrap;
+    color: #555;
+    margin-bottom: 0.25rem;
+    padding-right: 0;
+    font-size: 0.95rem;
 }
 
 .news-content {
-    display: table-cell;
-    vertical-align: middle; /* 从top改为middle居中对齐 */
-    line-height: 1.4;
+    display: block;
+    color: #333;
+    line-height: 1.5;
+    font-size: 1rem;
 }
 
-/* 移动端优化 - 表格布局 */
+/* 移动端优化 - News */
 @media screen and (max-width: 768px) {
-    .news-container {
-        margin: 0.5rem 0;
+    .card-section {
+        padding: 1.5rem; /* 保持移动端较小的内边距 */
+        border-radius: 12px;
+        margin-bottom: 1.5rem; /* 减小移动端卡片底部间距 */
     }
     
-    .news-scroll {
-        max-height: 180px;
-        padding: 0.25rem;
+    section.mt5 {
+        margin-top: 1rem !important; /* 减小移动端板块顶部间距 */
     }
-    
+
     .news-item {
-        display: flex;
-        flex-direction: row;
-        align-items: center; /* 从flex-start改为center居中对齐 */
-        margin-bottom: 0.75rem;
-        padding: 0.5rem;
-    }
-    
-    .news-date {
-        display: block;
-        width: auto;
-        min-width: 110px;
-        margin-bottom: 0;
-        margin-right: 0.75rem;
-        font-size: 0.9rem;
-        padding-right: 0;
-        white-space: nowrap;
-        flex-shrink: 0;
-    }
-    
-    .news-content {
-        display: block;
-        font-size: 0.9rem;
-        line-height: 1.3;
-        flex: 1;
+        margin-bottom: 1rem;
     }
 }
 
-@media screen and (max-width: 576px) {
-    .news-scroll {
-        max-height: 160px;
+/* Timeline Style for Education/Experience */
+.timeline-item {
+    border-left: 4px solid #4a90e2;
+    padding-left: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.timeline-date {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    font-weight: 500;
+}
+
+.timeline-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #212529;
+    margin-bottom: 0.2rem;
+}
+
+.timeline-desc {
+    color: #495057;
+    font-size: 0.95rem;
+}
+
+/* Research Interest Badges */
+.badge-interest {
+    background-color: #e8f0fe;
+    color: #1967d2;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border-radius: 50rem;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.badge-interest:hover {
+    background-color: #d2e3fc;
+    color: #174ea6;
+    text-decoration: none;
+}
+
+/* Photo Position - 正常布局，随页面滚动 */
+.photo-sticky {
+    position: relative;
+    top: 0;
+}
+
+.photo-sticky img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 8px;
+}
+
+/* 移动端照片适配 */
+@media screen and (max-width: 991px) {
+    .photo-sticky {
+        text-align: center;
+        margin-bottom: 20px;
     }
     
-    .news-item {
-        padding: 0.4rem;
-        flex-direction: column;
-        align-items: flex-start; /* 垂直布局时保持左对齐 */
+    .photo-sticky img {
+        max-width: 280px;
     }
-    
-    .news-date {
-        min-width: auto;
-        margin-right: 0;
-        margin-bottom: 0.25rem;
-    }
-    
-    .news-item strong {
-        font-size: 0.85rem;
-    }
-    
-    .news-content {
-        font-size: 0.85rem;
-    }
+}
+
+/* Profile Header Links */
+.profile-link {
+    display: inline-flex;
+    align-items: center;
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 1.5rem;
+    transition: color 0.2s;
+}
+
+.profile-link:hover {
+    color: #0a58ca;
+    text-decoration: underline;
+}
+
+.profile-link i {
+    margin-right: 0.4rem;
+    font-size: 1.1rem;
 }
 
 /* Publications 移动端优化 */
 @media screen and (max-width: 768px) {
     .paper-section {
         flex-direction: column;
-        gap: 10px;
-        margin-bottom: 15px;
-        padding: 10px;
-        border: 1px solid #e0e0e0;
-        border-radius: 8px;
-        background: #f9f9f9;
+        gap: 15px;
+        margin-bottom: 20px;
+        padding: 15px;
     }
     
     .journal-logo {
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     
     .paper-img {
         width: 100%;
-        max-width: 300px;
+        max-width: 280px;
         height: auto;
-        margin: 0 auto 10px auto;
+        margin: 0 auto;
         display: block;
     }
     
     .paper-title {
-        font-size: 1.2rem;
-        line-height: 1.4;
-        margin-bottom: 8px;
+        font-size: 1.15rem;
+        line-height: 1.5;
+        margin-bottom: 10px;
     }
     
     .authors, .conference-info {
         font-size: 0.9rem;
-        line-height: 1.3;
+        line-height: 1.5;
         margin-bottom: 8px;
     }
     
     .action-buttons {
-        justify-content: center;
-        gap: 8px;
-        margin-top: 10px;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+        margin-top: 5px;
     }
     
     .button {
-        padding: 4px 8px;
-        height: 28px;
-        line-height: 20px;
+        padding: 6px 12px;
+        height: auto;
+        line-height: 1.4;
         font-size: 0.85rem;
         min-width: 60px;
+    }
+    
+    .pub-section-title {
+        font-size: 1.1rem;
     }
 }
 
 @media screen and (max-width: 576px) {
     .paper-section {
-        padding: 8px;
-        margin-bottom: 12px;
+        padding: 12px;
+        margin-bottom: 15px;
     }
     
     .paper-title {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
     }
     
     .authors, .conference-info {
@@ -407,12 +507,17 @@ section .main-body{
     
     .action-buttons {
         flex-wrap: wrap;
+        gap: 8px;
     }
     
     .button {
         font-size: 0.8rem;
-        padding: 3px 6px;
+        padding: 5px 10px;
         min-width: 55px;
+    }
+    
+    .pub-section-title {
+        font-size: 1rem;
     }
 }
 

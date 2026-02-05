@@ -44,6 +44,9 @@
                         <a class="nav-link me-lg-3" href="#page-top">HOME</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#news">NEWS</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
                     </li>
                     <li class="nav-item">
@@ -66,12 +69,8 @@
         <div class="top-section-content">
             <div class="container px-1">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-12 text-center">
                         <h2 id="top-section-bg-text" class="text-light display-3 lh-1 mb-4 font-alt"></h2>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="user-photo photo"><img class="shadow"
-                                src="static/assets/img/photo.jpg"></div>
                     </div>
                 </div>
             </div>
@@ -81,62 +80,80 @@
 
 
     <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
+    <section class="mt5 md5" id="home">
         <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="home-md"></div>
-
-
+            <div class="card-section">
+                <header>
+                    <h2 id="home-subtitle"> </h2>
+                    <!-- <span class="bi bi-list"></span> -->
+                </header>
+                <div class="main-body" id="home-md"></div>
+            </div>
         </div>
     </section>
     <!-- Home -->
 
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
+    <!-- News -->
+    <section class="mt5 md5" id="news">
         <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;SELECTED PUBLICATIONS</h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
+            <!-- News Section -->
+            <div class="card-section">
+                <div class="main-body" id="news-md"></div>
+            </div>
+        </div>
+    </section>
+    <!-- News -->
+
+    <!-- Publications -->
+    <section class="mt5 md5" id="publications">
+        <div class="container px-5">
+            <div class="card-section">
+                <header>
+                    <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;SELECTED PUBLICATIONS</h2>
+                </header>
+                <div class="main-body" id="publications-md"></div>
+            </div>
         </div>
     </section>
     <!-- Publications  -->
 
     <!-- Project -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="project">
+    <section class="mt5 md5" id="project">
         <div class="container px-5">
-            <header>
-                <!-- <h2 id="achievements-subtitle"><i class="bi bi-trophy-fill"></i>&nbsp;ACHIEVEMENTS</h2> -->
-                <h2 id="achievements-subtitle"><i class="bi bi-code-slash"></i>&nbsp; CODE REPOSITORIES</h2>
-            </header>
-            <div class="main-body" id="project-md">
+            <div class="card-section">
+                <header>
+                    <!-- <h2 id="achievements-subtitle"><i class="bi bi-trophy-fill"></i>&nbsp;ACHIEVEMENTS</h2> -->
+                    <h2 id="achievements-subtitle"><i class="bi bi-code-slash"></i>&nbsp; CODE REPOSITORIES</h2>
+                </header>
+                <div class="main-body" id="project-md">
+                </div>
             </div>
         </div>
     </section>
     <!-- Side Project -->
 
     <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="awards">
+    <section class="mt5 md5" id="awards">
         <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>&nbsp;AWARDS </h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
-
+            <div class="card-section">
+                <header>
+                    <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>&nbsp;AWARDS </h2>
+                </header>
+                <div class="main-body" id="awards-md"></div>
+            </div>
         </div>
     </section>
     <!-- Awards -->
 
     <!-- Service -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="service">
+    <section class="mt5 md5" id="service">
         <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-chat-left-text"></i>&nbsp;SERVICE </h2>
-            </header>
-            <div class="main-body" id="service-md"></div>
+            <div class="card-section">
+                <header>
+                    <h2 id="awards-subtitle"><i class="bi bi-chat-left-text"></i>&nbsp;SERVICE </h2>
+                </header>
+                <div class="main-body" id="service-md"></div>
+            </div>
         </div>
     </section>
     <!-- Service -->
@@ -173,14 +190,3 @@
 </body>
 
 </html>
-
-<script>
-    // 加载 publications.md 文件
-    fetch('contents/publications.md')
-      .then(response => response.text())
-      .then(data => {
-            const publicationsContainer = document.getElementById('publications-md');
-            publicationsContainer.innerHTML = data;
-        })
-      .catch(error => console.error('Error loading publications.md:', error));
-</script>
