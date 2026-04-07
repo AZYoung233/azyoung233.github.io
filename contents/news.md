@@ -3,8 +3,12 @@
 <div class="news-container">
     <div class="news-scroll">
         <div class="news-item">
+            <div class="news-date"><strong>Apr 07, 2026</strong></div>
+            <div class="news-content">One paper was accepted by ACL 2026 Main Conference! See you in San Diego!</div>
+        </div>
+        <div class="news-item">
             <div class="news-date"><strong>Oct 06, 2025</strong></div>
-            <div class="news-content">Three papers were accepted as short papers by BIBM 2025！</div>
+            <div class="news-content">Three papers were accepted as short papers by BIBM 2025!</div>
         </div>
         <div class="news-item">
             <div class="news-date"><strong>Aug 22, 2025</strong></div>
