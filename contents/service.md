@@ -1,2 +1,2 @@
-* Conference Reviewer: ACL ARR, ICASSP.
+* Conference Reviewer: ACL ARR, ICASSP, NIPS.
 * Journal Reviewer: TAC.
