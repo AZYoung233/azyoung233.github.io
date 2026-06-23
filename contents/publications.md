@@ -149,6 +149,28 @@
 <div class="paper-section">
     <div class="paper-img-container">
       <div class="journal-logo acl_series-logo">
+        <span class="journal-name">ACL</span>
+      </div>
+      <img src="contents/publication_img/G-Cap.png" alt="G-Cap" class="paper-img">
+    </div>
+    <div class="paper-info">
+      <h2 class="paper-title">G-Cap: A Game Character Caption Generator</h2>
+      <p class="authors">
+        <strong>Yang Yang</strong>, Feng Hu, Haiming Zhang, Xu Cheng, Gui Zheng, Liang Yao† and Wenqi Ren.
+      </p>
+      <p class="conference-info">
+        <strong>In ACL 2026 Main Conference.</strong>
+      </p>
+    </div>
+    <div class="action-buttons">
+      <a href="https://aclanthology.org/2026.acl-long.248/" class="button">Paper</a>
+      <a href="https://github.com/AZYoung233/G-Cap" class="button">Code</a>
+    </div>
+  </div>
+
+<div class="paper-section">
+    <div class="paper-img-container">
+      <div class="journal-logo acl_series-logo">
         <span class="journal-name">EMNLP</span>
       </div>
       <img src="contents/publication_img/UNCO.png" alt="UNCO" class="paper-img">
