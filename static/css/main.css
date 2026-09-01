@@ -356,15 +356,31 @@ section.md5 {
 .timeline-date {
     color: #6c757d;
     font-size: 0.9rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.35rem;
     font-weight: 500;
 }
 
 .timeline-title {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.45rem 0.7rem;
     font-weight: 700;
     font-size: 1.1rem;
     color: #212529;
     margin-bottom: 0.2rem;
+    line-height: 1.35;
+}
+
+.org-wordmark {
+    height: 1.15em;
+    width: auto;
+    display: block;
+    flex-shrink: 0;
+}
+
+.org-wordmark-idea {
+    height: 1.45em;
 }
 
 .timeline-desc {

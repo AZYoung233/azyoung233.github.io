@@ -47,13 +47,19 @@
 
 <div class="timeline-item">
 <div class="timeline-date">Aug. 2025 - Present <span class="badge bg-secondary ms-2" style="font-size: 0.7em; vertical-align: middle;">Internship</span></div>
-<div class="timeline-title">Tencent Inc.</div>
+<div class="timeline-title">
+<img class="org-wordmark" src="static/assets/logos/tencent.svg" alt="Tencent">
+Tencent Inc.
+</div>
 <div class="timeline-desc">LVLM Research Intern at IEG CROS. Working on LVLM in Game domain.</div>
 </div>
 
 <div class="timeline-item">
 <div class="timeline-date">June 2024 - Sept. 2024 <span class="badge bg-secondary ms-2" style="font-size: 0.7em; vertical-align: middle;">Internship</span></div>
-<div class="timeline-title">International Digital Economy Academy (IDEA)</div>
+<div class="timeline-title">
+<img class="org-wordmark org-wordmark-idea" src="static/assets/logos/idea.svg" alt="IDEA">
+International Digital Economy Academy (IDEA)
+</div>
 <div class="timeline-desc">LLM Algorithm Intern at ReadPaper. Worked on Chinese Paper Polishing LLM.</div>
 </div>
 
