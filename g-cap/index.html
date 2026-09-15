@@ -13,7 +13,7 @@
   <meta property="og:title" content="G-Cap: A Game Character Caption Generator">
   <meta property="og:description" content="An ACL 2026 Main paper on captioning game characters in virtual worlds — benchmark, metric, data, and open models.">
   <meta property="og:url" content="https://azyoung233.github.io/g-cap/">
-  <meta property="og:image" content="https://azyoung233.github.io/g-cap/assets/img/intro.jpg">
+  <meta property="og:image" content="https://azyoung233.github.io/g-cap/assets/img/intro.png">
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -254,7 +254,13 @@
       margin: 16px 0 0;
       box-shadow: var(--shadow);
     }
-    .figure img { width: 100%; border-radius: 8px; background: white; }
+    .figure img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      background: white;
+      image-rendering: auto;
+    }
 
     .qa {
       display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
@@ -513,7 +519,7 @@
       </div>
 
       <div class="teaser">
-        <img src="assets/img/intro.jpg" alt="GPT-5.1 captions a real-world photo well, but misses hierarchical clothing detail on a game character">
+        <img src="assets/img/intro.png" alt="GPT-5.1 captions a real-world photo well, but misses hierarchical clothing detail on a game character">
         <div class="caption">
           <strong>Case study.</strong> Even SOTA GPT-5.1 captions the real world well, but fails to replicate that success on virtual-world game characters — missing fine-grained, hierarchical clothing detail.
         </div>
@@ -588,7 +594,7 @@
         <div class="step"><div class="sn">4</div><div><h4>Finalization</h4><p>After visual consistency, global attributes such as camera pose and artistic style are appended.</p></div></div>
       </div>
       <div class="figure">
-        <img src="assets/img/annotation.jpg" alt="Four-step GC-Bench annotation pipeline">
+        <img src="assets/img/annotation.png" alt="Four-step GC-Bench annotation pipeline">
         <div class="caption"><strong>Annotation pipeline.</strong> Draft → human refine with search → reconstruct and compare → finalize.</div>
       </div>
 
@@ -610,7 +616,7 @@
         </div>
       </div>
       <div class="figure">
-        <img src="assets/img/bench_cases.jpg" alt="Qualitative examples of GC-Bench annotations">
+        <img src="assets/img/bench_cases.png" alt="Qualitative examples of GC-Bench annotations">
         <div class="caption"><strong>GC-Bench examples.</strong> Dense, hierarchical captions covering clothing layers, materials, and style.</div>
       </div>
     </div>
@@ -677,7 +683,7 @@
         To close the open–closed gap we build <strong>GC-148K</strong> = <em class="g">GC-Real (78K)</em> + <em class="g">GC-Syn (70K)</em>, via a <strong class="k">Deconstruct–Recombine–Generate</strong> Fashion Simulator.
       </p>
       <div class="figure">
-        <img src="assets/img/gc148k.jpg" alt="GC-Real and GC-Syn data generation pipelines">
+        <img src="assets/img/gc148k.png" alt="GC-Real and GC-Syn data generation pipelines">
         <div class="caption">
           <strong>Overall pipeline.</strong> (a) Collect, filter, and caption real images. (b) Extract garments, recombine them, and synthesize new pairs.
         </div>
@@ -834,11 +840,11 @@
         On the same input, G-Cap-32B recovers hierarchical clothing and fine-grained accessories that Qwen3-VL-32B misses, and stays competitive with Gemini 3 Pro without Gemini’s extra verbosity.
       </p>
       <div class="figure">
-        <img src="assets/img/case1.jpg" alt="Case study comparing Qwen3-VL-32B, G-Cap-32B, and Gemini 3 Pro">
+        <img src="assets/img/case1.png" alt="Case study comparing Qwen3-VL-32B, G-Cap-32B, and Gemini 3 Pro">
         <div class="caption"><strong>Case #1.</strong> Qwen3-VL-32B vs. G-Cap-32B vs. Gemini 3 Pro on an identical character.</div>
       </div>
       <div class="figure">
-        <img src="assets/img/case2.jpg" alt="Second qualitative case study">
+        <img src="assets/img/case2.png" alt="Second qualitative case study">
         <div class="caption"><strong>Case #2.</strong> Another side-by-side comparison on a different style.</div>
       </div>
 
