@@ -73,7 +73,9 @@
       font-size: 0.85rem;
       font-weight: 500;
       transition: all 0.2s ease;
-      min-width: 70px;
+      width: 96px;
+      min-width: 96px;
+      box-sizing: border-box;
       text-align: center;
     }
 
@@ -154,7 +156,7 @@
       <img src="contents/publication_img/G-Cap.png" alt="G-Cap" class="paper-img">
     </div>
     <div class="paper-info">
-      <h2 class="paper-title">G-Cap: A Game Character Caption Generator</h2>
+      <h2 class="paper-title"><a href="g-cap/" style="color: inherit; text-decoration: none;">G-Cap: A Game Character Caption Generator</a></h2>
       <p class="authors">
         <strong>Yang Yang</strong>, Feng Hu, Haiming Zhang, Xu Cheng, Gui Zheng, Liang Yao† and Wenqi Ren.
       </p>
@@ -163,6 +165,7 @@
       </p>
     </div>
     <div class="action-buttons">
+      <a href="g-cap/" class="button">Project</a>
       <a href="https://aclanthology.org/2026.acl-long.248/" class="button">Paper</a>
       <a href="https://github.com/AZYoung233/G-Cap" class="button">Code</a>
     </div>

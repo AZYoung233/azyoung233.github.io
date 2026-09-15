@@ -3,6 +3,10 @@
 <div class="news-container">
     <div class="news-scroll">
         <div class="news-item">
+            <div class="news-date"><strong>Sep 15, 2026</strong></div>
+            <div class="news-content">The <a href="g-cap/">G-Cap project page</a> is now online.</div>
+        </div>
+        <div class="news-item">
             <div class="news-date"><strong>Apr 07, 2026</strong></div>
             <div class="news-content">One paper was accepted by ACL 2026 Main Conference! See you in San Diego!</div>
         </div>

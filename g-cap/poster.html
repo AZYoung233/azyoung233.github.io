@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<!--
+  G-Cap ACL 2026 poster — A0 portrait (841mm × 1189mm)
+  Built with the posterly portrait 2-column workflow.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>G-Cap: A Game Character Caption Generator — ACL 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      packages: {'[+]': ['ams']}
+    },
+    svg: { fontCache: 'global' }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+<style>
+  /* =========================================================
+     CANVAS — A0 PORTRAIT  (841mm × 1189mm)
+     ========================================================= */
+  @page { size: 841mm 1189mm; margin: 0; }
+
+  :root {
+    --accent:        #006D3B;
+    --accent-deep:   #123A2A;
+    --accent-light:  #F1F6F2;
+    --accent-soft:   #E2E8E1;
+
+    --gold:          #C49A3A;
+    --gold-soft:     #FFF6DE;
+    --green:         #2F7D4E;
+
+    --text-primary:   #1A1A1A;
+    --text-secondary: #555;
+    --text-muted:     #888;
+
+    --bg-page:        #F7F4EE;
+    --bg-card:        #FFFFFF;
+    --bg-card-tint:   #FAFAFB;
+    --bg-emphasis:    var(--accent-light);
+
+    --border-soft:    #DDDCD6;
+    --border-strong:  var(--accent);
+
+    /* Base unit. Print: 1mm; screen preview: 1.6px. */
+    --u: 1.6px;
+
+    --font-serif: "Comic Sans MS", "Comic Neue", "Comic Sans", "Trebuchet MS", cursive;
+    --font-sans:  "Comic Sans MS", "Comic Neue", "Comic Sans", "Trebuchet MS", cursive;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: #2b2b2b;
+    font-family: var(--font-serif);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .poster {
+    width: calc(841 * var(--u));
+    height: calc(1189 * var(--u));
+    background: var(--bg-page);
+    background-image:
+      radial-gradient(ellipse at top left,    rgba(0, 109, 59, 0.035), transparent 42%),
+      radial-gradient(ellipse at bottom right, rgba(196, 154, 58, 0.045), transparent 52%);
+    margin: 20px auto;
+    padding: calc(10.5 * var(--u)) calc(14 * var(--u)) calc(8 * var(--u));
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: calc(6 * var(--u));
+    box-shadow: 0 0 60px rgba(0,0,0,0.5);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .poster::before {
+    content: "";
+    position: absolute; top: 0; left: 0; right: 0;
+    height: calc(9 * var(--u));
+    background: linear-gradient(90deg,
+      var(--accent-deep) 0%,
+      var(--accent)      40%,
+      var(--accent)      70%,
+      var(--gold)        100%);
+  }
+
+  /* =========================== HEADER =========================== */
+  .header {
+    display: grid;
+    grid-template-columns: calc(102 * var(--u)) minmax(0, 1fr) calc(188 * var(--u));
+    align-items: center;
+    gap: calc(4 * var(--u));
+    padding: calc(1.5 * var(--u)) calc(3 * var(--u)) calc(5 * var(--u));
+    border-bottom: calc(2.5 * var(--u)) solid var(--accent);
+  }
+
+  /* left brand anchor */
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+  }
+  .brand .acl-logo {
+    width: calc(96 * var(--u));
+    height: auto;
+    display: block;
+  }
+
+  .title-block { text-align: center; min-width: 0; }
+  .title-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: calc(3 * var(--u));
+    min-width: 0;
+  }
+  .title-logo {
+    height: calc(30 * var(--u));
+    width: auto;
+    display: block;
+    flex: 0 0 auto;
+    object-fit: contain;
+  }
+  .title {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: calc(23 * var(--u));
+    line-height: 1;
+    color: var(--accent-deep);
+    letter-spacing: -0.6px;
+    white-space: nowrap;
+  }
+  .title .accent { color: var(--gold); }
+  .authors-line {
+    font-family: var(--font-sans);
+    font-size: calc(9.4 * var(--u));
+    line-height: 1.1;
+    color: var(--accent);
+    font-weight: 700;
+    margin-top: calc(2.2 * var(--u));
+    white-space: nowrap;
+  }
+  .authors-line .author { margin: 0 calc(1.25 * var(--u)); white-space: nowrap; }
+  .authors-line sup { font-size: 0.66em; color: var(--accent); }
+  .authors-line .aff {
+    color: var(--text-secondary);
+    font-weight: 400;
+    display: block;
+    margin-top: calc(1.2 * var(--u));
+    font-size: calc(8.1 * var(--u));
+    white-space: nowrap;
+  }
+
+  .right-block { display: flex; align-items: center; justify-content: flex-end; gap: calc(6 * var(--u)); min-width: 0; }
+  .logo-slot { display: flex; flex-direction: row; align-items: center; justify-content: flex-end; gap: calc(5 * var(--u)); min-width: 0; }
+  .logo-slot img { height: calc(24 * var(--u)); width: auto; max-width: calc(92 * var(--u)); display: block; }
+  .logo-slot img.wide { height: calc(15 * var(--u)); max-width: calc(98 * var(--u)); }
+  .qr-block { display: flex; flex-direction: column; align-items: center; gap: calc(2 * var(--u)); }
+  .qr-block img {
+    width: calc(50 * var(--u));
+    height: calc(50 * var(--u));
+    border: calc(1.5 * var(--u)) solid var(--accent);
+    border-radius: calc(3 * var(--u));
+    background: white;
+    padding: calc(2 * var(--u));
+  }
+  .qr-label {
+    font-family: var(--font-sans);
+    font-size: calc(8.5 * var(--u));
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  /* ============================ BODY ============================ */
+  .body-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: calc(10 * var(--u));
+    min-height: 0;
+  }
+  .column {
+    display: flex; flex-direction: column;
+    gap: calc(5 * var(--u));
+    min-height: 0;
+    height: 100%;
+    padding-bottom: calc(2 * var(--u));
+  }
+
+  /* =============================== CARDS =============================== */
+  .card {
+    background: var(--bg-card);
+    border-radius: calc(5 * var(--u));
+    padding: calc(4.8 * var(--u)) calc(9 * var(--u));
+    border: calc(1 * var(--u)) solid var(--border-soft);
+    box-shadow: 0 calc(2 * var(--u)) calc(5 * var(--u)) rgba(18, 58, 42, 0.045);
+    position: relative;
+  }
+  .card.tinted    { background: var(--bg-card-tint); }
+  .card.highlight {
+    border-left: calc(5 * var(--u)) solid var(--accent);
+    background: linear-gradient(90deg, var(--bg-emphasis) 0%, var(--bg-card) 28%);
+  }
+
+  .section-title {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: calc(17 * var(--u));
+    color: var(--accent-deep);
+    margin-bottom: calc(3 * var(--u));
+    display: flex; align-items: center;
+    gap: calc(6 * var(--u));
+    flex-wrap: wrap;
+  }
+  .section-title .num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: calc(23 * var(--u)); height: calc(23 * var(--u));
+    background: var(--accent); color: white;
+    border-radius: 50%;
+    font-size: calc(13.5 * var(--u)); font-weight: 700;
+    flex-shrink: 0;
+  }
+  .section-title .tag {
+    font-family: var(--font-sans);
+    font-size: calc(10 * var(--u));
+    font-weight: 700;
+    color: var(--gold);
+    margin-left: auto;
+  }
+
+  .body-text, .card p, .card li {
+    font-family: var(--font-serif);
+    font-size: calc(10.95 * var(--u));
+    line-height: 1.34;
+    color: var(--text-primary);
+  }
+  .card ul, .card ol { padding-left: calc(18 * var(--u)); }
+  .card li { margin-bottom: calc(1.5 * var(--u)); }
+
+  .keyword       { color: var(--accent); font-weight: 700; }
+  .keyword-gold  { color: var(--gold);   font-weight: 700; }
+  .keyword-green { color: var(--green);  font-weight: 700; }
+  .highlight-text {
+    background: var(--bg-emphasis);
+    padding: 0 calc(2 * var(--u));
+    border-radius: calc(2 * var(--u));
+  }
+
+  .eqn {
+    background: var(--bg-emphasis);
+    border-left: calc(3 * var(--u)) solid var(--accent);
+    padding: calc(3 * var(--u)) calc(10 * var(--u));
+    margin: calc(2.5 * var(--u)) 0;
+    font-size: calc(12 * var(--u));
+    overflow-x: hidden;
+  }
+  .eqn .label {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: calc(9 * var(--u));
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: calc(1 * var(--u));
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .callout {
+    background: var(--accent);
+    color: white;
+    padding: calc(4 * var(--u)) calc(10 * var(--u));
+    border-radius: calc(4 * var(--u));
+    font-size: calc(11 * var(--u));
+    line-height: 1.34;
+    margin: calc(4 * var(--u)) 0;
+  }
+  .callout strong { color: var(--gold); }
+  .callout.gold {
+    background: linear-gradient(135deg, #FFF8E6 0%, #F7E8BC 100%);
+    color: var(--text-primary);
+    border: calc(1.2 * var(--u)) solid rgba(196, 154, 58, 0.50);
+    box-shadow: inset calc(4 * var(--u)) 0 0 var(--gold);
+  }
+  .callout.gold strong { color: var(--accent-deep); }
+
+  .figure { margin: calc(3 * var(--u)) 0; text-align: center; }
+  .figure img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: calc(3 * var(--u));
+    border: calc(1 * var(--u)) solid var(--border-soft);
+    background: white;
+    display: inline-block;
+  }
+  .figure .caption {
+    font-family: var(--font-sans);
+    font-size: calc(10 * var(--u));
+    color: var(--text-secondary);
+    margin-top: calc(2 * var(--u));
+    line-height: 1.3;
+    text-align: left;
+  }
+  .figure .caption strong { color: var(--accent-deep); }
+
+  /* figure beside descriptive text */
+  .fig-row { display: flex; gap: calc(9 * var(--u)); align-items: center; margin: calc(4 * var(--u)) 0; }
+  .fig-row .fr-img { flex: 0 0 55%; }
+  .fig-row .fr-img img {
+    width: 100%; display: block;
+    border-radius: calc(3 * var(--u));
+    border: calc(1 * var(--u)) solid var(--border-soft);
+    background: white;
+  }
+  .fig-row .fr-txt {
+    flex: 1;
+    font-family: var(--font-sans);
+    font-size: calc(10.3 * var(--u));
+    line-height: 1.36;
+    color: var(--text-secondary);
+  }
+  .fig-row .fr-txt strong { color: var(--accent-deep); }
+
+  .result-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-sans);
+    font-size: calc(11 * var(--u));
+    margin-top: calc(3 * var(--u));
+  }
+  .result-table th, .result-table td {
+    padding: calc(2.3 * var(--u)) calc(4 * var(--u));
+    text-align: center;
+    border-bottom: calc(1 * var(--u)) solid var(--border-soft);
+  }
+  .result-table thead th {
+    background: var(--accent); color: white;
+    font-weight: 600; font-size: calc(10.5 * var(--u));
+  }
+  .result-table tbody tr.group-row td {
+    background: var(--bg-emphasis); font-weight: 700;
+    text-align: left;
+    color: var(--accent-deep);
+    padding-left: calc(6 * var(--u));
+    border-bottom: calc(1.5 * var(--u)) solid var(--accent);
+  }
+  .result-table tbody tr.ours td { background: var(--gold-soft); font-weight: 700; }
+  .result-table tbody tr.ours td:first-child { color: var(--accent-deep); }
+  .result-table .method { text-align: left; padding-left: calc(6 * var(--u)); }
+  .result-table .best { color: var(--accent); font-weight: 700; }
+  .result-table .up   { color: var(--green); font-weight: 700; white-space: nowrap; }
+
+  .keybox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: calc(6 * var(--u));
+    margin: calc(4 * var(--u)) 0 calc(1 * var(--u));
+  }
+  .keybox .kb-item {
+    background: var(--bg-emphasis);
+    border-top: calc(2 * var(--u)) solid var(--accent);
+    padding: calc(5 * var(--u)) calc(2 * var(--u));
+    text-align: center;
+    border-radius: 0 0 calc(3 * var(--u)) calc(3 * var(--u));
+  }
+  .kb-item .kb-num {
+    font-family: var(--font-sans);
+    font-weight: 800;
+    font-size: calc(19 * var(--u));
+    color: var(--accent);
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .kb-item .kb-label {
+    font-family: var(--font-sans);
+    font-size: calc(9.8 * var(--u));
+    color: var(--text-secondary);
+    margin-top: calc(3 * var(--u));
+    line-height: 1.15;
+  }
+
+  /* ============================ FOOTER ============================ */
+  .footer {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    grid-template-areas:
+      "meta links"
+      "fund links";
+    column-gap: calc(10 * var(--u));
+    row-gap: calc(1.4 * var(--u));
+    align-items: center;
+    padding: calc(3.2 * var(--u)) calc(6 * var(--u)) calc(2.4 * var(--u));
+    border-top: calc(1 * var(--u)) solid rgba(0, 109, 59, 0.14);
+    border-radius: calc(4 * var(--u));
+    background: linear-gradient(90deg, rgba(247, 244, 238, 0.96), rgba(255, 255, 255, 0.88));
+    box-shadow: inset 0 calc(1 * var(--u)) 0 rgba(255,255,255,0.75);
+    font-family: var(--font-sans);
+    font-size: calc(9.4 * var(--u));
+    line-height: 1.14;
+    color: var(--text-muted);
+  }
+  .footer-meta { grid-area: meta; white-space: nowrap; }
+  .footer-fund {
+    grid-area: fund;
+    font-size: calc(8.3 * var(--u));
+    color: var(--text-secondary);
+    white-space: nowrap;
+  }
+  .footer-links {
+    grid-area: links;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: calc(5 * var(--u));
+    align-items: center;
+  }
+  .footer-item {
+    min-width: 0;
+    padding: calc(1.8 * var(--u)) calc(3 * var(--u));
+    border-left: calc(1.5 * var(--u)) solid rgba(0, 109, 59, 0.24);
+    background: rgba(255,255,255,0.72);
+    border-radius: calc(3 * var(--u));
+  }
+  .footer-label {
+    display: block;
+    font-size: calc(7.4 * var(--u));
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    color: var(--text-muted);
+    margin-bottom: calc(0.6 * var(--u));
+  }
+  .footer .repo { color: var(--accent); font-weight: 700; white-space: nowrap; }
+
+  .ornament {
+    position: absolute;
+    right: calc(18 * var(--u));
+    bottom: calc(16 * var(--u));
+    font-family: var(--font-sans);
+    font-size: calc(30 * var(--u));
+    color: rgba(18, 58, 42, 0.035);
+    font-weight: 900;
+    letter-spacing: 4px;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  /* ===================== PRINT OVERRIDE ===================== */
+  @media print {
+    html, body { background: white; }
+    .poster { margin: 0; box-shadow: none; width: 841mm; height: 1189mm; page-break-after: avoid; }
+    :root { --u: 1mm; }
+  }
+</style>
+</head>
+<body>
+
+<style>
+  .proj-bar {
+    position: sticky; top: 0; z-index: 40;
+    background: #123A2A; color: #fff;
+    font-family: "Comic Neue", "Trebuchet MS", sans-serif;
+    font-size: 14px; font-weight: 700;
+    display: flex; justify-content: center; gap: 18px;
+    padding: 10px 16px;
+  }
+  .proj-bar a { color: #FFE7A3; text-decoration: none; }
+  .proj-bar a:hover { text-decoration: underline; }
+  @media print { .proj-bar { display: none; } }
+</style>
+<div class="proj-bar">
+  <a href="index.html">← Project Page</a>
+  <span>G-Cap ACL 2026 Poster</span>
+  <a href="../">Homepage</a>
+</div>
+
+
+<div class="poster" data-measure-role="poster">
+
+  <!-- =========================== HEADER =========================== -->
+  <header class="header" data-measure-role="header">
+    <div class="brand">
+      <img class="acl-logo" src="assets/img/acl-logo.png" alt="ACL 2026">
+    </div>
+
+    <div class="title-block">
+      <div class="title-row">
+        <img class="title-logo" src="assets/img/logo.png" alt="G-Cap logo">
+        <h1 class="title"><span class="accent">G-Cap:</span> A Game Character Caption Generator</h1>
+      </div>
+      <div class="authors-line">
+        <span class="author">Yang Yang<sup>1,2</sup></span>&middot;
+        <span class="author">Feng Hu<sup>2</sup></span>&middot;
+        <span class="author">Haiming Zhang<sup>2</sup></span>&middot;
+        <span class="author">Xu Cheng<sup>2</sup></span>&middot;
+        <span class="author">Gui Zheng<sup>2</sup></span>&middot;
+        <span class="author">Liang Yao<sup>1</sup><sup>&#9993;</sup></span>&middot;
+        <span class="author">Wenqi Ren<sup>1</sup></span>
+        <span class="aff"><sup>1</sup>School of Cyber Science and Technology, Sun Yat-sen University &nbsp;&middot;&nbsp; <sup>2</sup>Tencent Inc.</span>
+      </div>
+    </div>
+
+    <div class="right-block">
+      <div class="logo-slot">
+        <img src="assets/img/sysu-logo.svg" alt="Sun Yat-sen University">
+        <img class="wide" src="assets/img/tencent-logo.svg" alt="Tencent">
+      </div>
+      <div class="qr-block">
+        <img src="assets/img/qr.png" alt="QR to code repository">
+        <div class="qr-label">Code &amp; Data</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================ BODY ============================ -->
+  <div class="body-grid" data-measure-role="body">
+
+    <!-- ============ COLUMN 1 ============ -->
+    <div class="column" data-measure-role="column">
+
+      <!-- Card 1: Motivation -->
+      <div class="card highlight" data-measure-role="card">
+        <div class="section-title"><span class="num">1</span> Motivation</div>
+        <p class="body-text">
+          LVLMs excel at captioning <span class="keyword">real-world</span> images, yet
+          <span class="keyword-gold">surreal, highly stylized virtual worlds</span> (games &amp; anime) remain largely
+          unexplored &mdash; despite real industrial value in content retrieval, skin recommendation &amp; design, and review.
+        </p>
+        <div class="figure">
+          <img style="width: 100%" src="assets/img/intro.jpg" alt="GPT-5.1 captioning in real-world vs virtual-world scenarios">
+          <div class="caption">
+            <strong>Case study.</strong> Even SOTA <span class="keyword">GPT-5.1</span> captions the real world well, but
+            <em>fails to replicate that success</em> on virtual-world game characters &mdash; missing fine-grained,
+            hierarchical clothing detail.
+          </div>
+        </div>
+        <div class="callout">
+          <strong>Q1.</strong> How to <em>evaluate</em> virtual-world captioning?
+          &nbsp;<strong>Q2.</strong> How to <em>close</em> the open&ndash;closed-source gap?
+        </div>
+      </div>
+
+      <!-- Card 2: GC-Bench -->
+      <div class="card" data-measure-role="card">
+        <div class="section-title"><span class="num">2</span> GC-Bench</div>
+        <p class="body-text">
+          The <span class="keyword">first benchmark</span> for Game Character Captioning &mdash; manually annotated
+          characters across MOBA, FPS &amp; open-world RPG, demanding hierarchical clothing structure, fine-grained
+          color/material, and domain garment knowledge.
+        </p>
+        <div class="keybox">
+          <div class="kb-item"><div class="kb-num">186</div><div class="kb-label">annotated characters</div></div>
+          <div class="kb-item"><div class="kb-num">20</div><div class="kb-label">source games</div></div>
+          <div class="kb-item"><div class="kb-num">~290</div><div class="kb-label">words / caption</div></div>
+        </div>
+        <div class="figure">
+          <img style="width: 100%" src="assets/img/ranking.png" alt="Model rankings on GC-Bench">
+          <div class="caption">
+            <strong>Rankings on GC-Bench.</strong> A clear stratification &mdash; top closed-source LVLMs lead while
+            open-source models trail, motivating our data &amp; model recipe.
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Graph-F1 metric -->
+      <div class="card highlight" data-measure-role="card">
+        <div class="section-title"><span class="num">3</span> Graph-F1 Metric <span class="tag">&#9733; KEY</span></div>
+        <p class="body-text">
+          NLG metrics &amp; VLM-as-judge are too coarse for dense captions. <span class="keyword">Graph-F1</span>
+          parses captions into semantic graphs and scores them by <strong>two-stage soft subgraph matching</strong> &mdash;
+          parent nodes aligned by cosine similarity, then one-hop subgraphs scored by a reranker. Embedding + reranker
+          run locally (~10&nbsp;GB GPU); only triplet parsing uses an LLM.
+        </p>
+        <div class="figure">
+          <img style="width: 100%" src="assets/img/graphf1.png" alt="Graph-F1 pipeline: caption to semantic graph to asymmetric subgraph matching">
+          <div class="caption">
+            <strong>Pipeline.</strong> Captions &rarr; semantic graphs &rarr; asymmetric <em>precision</em> (hallucination
+            check) and <em>recall</em> (coverage check); <span class="keyword">Graph-F1</span> is their harmonic mean.
+          </div>
+        </div>
+        <div class="callout gold">
+          <strong>Best human alignment:</strong> Graph-F1 <strong>0.79</strong> &nbsp;vs&nbsp; GPT-5 Judge 0.60 &middot; CAPTURE 0.59 &middot; BERTScore 0.57.
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ============ COLUMN 2 ============ -->
+    <div class="column" data-measure-role="column">
+
+      <!-- Card 4: GC-148K -->
+      <div class="card" data-measure-role="card">
+        <div class="section-title"><span class="num">4</span> GC-148K Dataset</div>
+        <p class="body-text">
+          A <strong>148K</strong> image&ndash;caption corpus that bridges the gap, built via a
+          <span class="keyword">Deconstruct&ndash;Recombine&ndash;Generate</span> pipeline.
+        </p>
+        <div class="figure">
+          <img style="width: 100%" src="assets/img/gc148k.jpg" alt="GC-148K data synthesis pipeline">
+          <div class="caption">
+            <strong>Pipeline.</strong> A <em>Fashion Simulator</em> recombines a 560K-instance garment library via <span class="keyword">Nano Banana</span>.
+          </div>
+        </div>
+        <ul style="margin-top: calc(3 * var(--u))">
+          <li><span class="keyword-green">GC-Real (78K)</span> &mdash; web images, DINOv3-deduplicated, densely captioned by Gemini 2.5 Pro.</li>
+          <li><span class="keyword-green">GC-Syn (70K)</span> &mdash; synthesized multi-layer clothing hierarchies.</li>
+        </ul>
+        <div class="keybox">
+          <div class="kb-item"><div class="kb-num">148K</div><div class="kb-label">image&ndash;caption pairs</div></div>
+          <div class="kb-item"><div class="kb-num">560K</div><div class="kb-label">garment components</div></div>
+          <div class="kb-item"><div class="kb-num">103</div><div class="kb-label">art-medium styles</div></div>
+        </div>
+      </div>
+
+      <!-- Card 5: Main Results -->
+      <div class="card highlight" data-measure-role="card">
+        <div class="section-title"><span class="num">5</span> Main Results <span class="tag">&#9733; HEADLINE</span></div>
+        <p class="body-text" style="font-size: calc(10 * var(--u)); color: var(--text-secondary); margin-bottom: calc(2*var(--u))">
+          SFT on GC-148K over Qwen3-VL backbones; evaluated on all 186 GC-Bench samples (Graph-F1, %).
+        </p>
+        <table class="result-table">
+          <thead>
+            <tr>
+              <th class="method" style="text-align:left">Model</th>
+              <th>Prec.</th>
+              <th>Rec.</th>
+              <th>Graph-F1 &#8593;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="group-row"><td colspan="4">Closed-source</td></tr>
+            <tr><td class="method">GPT-5.1</td><td>40.54</td><td>26.64</td><td>31.43</td></tr>
+            <tr><td class="method">Gemini 3 Pro</td><td>44.71</td><td>25.78</td><td>32.21</td></tr>
+            <tr class="group-row"><td colspan="4">Open-source backbones</td></tr>
+            <tr><td class="method">Qwen3-VL-8B</td><td>42.28</td><td>19.43</td><td>26.09</td></tr>
+            <tr><td class="method">Qwen3-VL-32B</td><td>39.65</td><td>23.32</td><td>28.78</td></tr>
+            <tr class="group-row"><td colspan="4">Ours</td></tr>
+            <tr class="ours"><td class="method">G-Cap-8B</td><td>43.13</td><td>25.33</td><td class="best">31.45 <span class="up">&#9650;20.5%</span></td></tr>
+            <tr class="ours"><td class="method">G-Cap-32B</td><td>43.82</td><td>26.16</td><td class="best">32.31 <span class="up">&#9650;12.3%</span></td></tr>
+          </tbody>
+        </table>
+        <div class="callout" style="margin-top: calc(4 * var(--u))">
+          <strong>G-Cap-32B</strong> matches <strong>Gemini 3 Pro</strong> &amp; surpasses GPT-5.1 &mdash; at open-source cost, with <em>no</em> extra verbosity.
+        </div>
+      </div>
+
+      <!-- Card 6: Analysis -->
+      <div class="card" data-measure-role="card">
+        <div class="section-title"><span class="num">6</span> Analysis: Density vs. Length</div>
+        <p class="body-text">
+          Gains come from <span class="keyword">structural coverage</span>, not longer text: GPT-5.1 is verbose
+          (&gt;500 words) yet low-density (0.49), while Gemini-family models &amp; G-Cap maximize information per word.
+        </p>
+        <div class="figure">
+          <img style="width: 96%" src="assets/img/density.png" alt="Information density versus caption length, bubble size = Graph-F1">
+          <div class="caption">
+            <strong>Bubble = Graph-F1.</strong> Future captioners should jointly maximize density and coverage rather than
+            chase length alone.
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7: Takeaways -->
+      <div class="card highlight" data-measure-role="card">
+        <div class="section-title"><span class="num">7</span> Takeaways <span class="tag">&#9733;</span></div>
+        <ul>
+          <li><strong>Task.</strong> Game Character Captioning &mdash; LVLM captioning for virtual worlds.</li>
+          <li><strong>Benchmark.</strong> GC-Bench (186 images) + <span class="keyword">Graph-F1</span>, the metric best aligned with humans.</li>
+          <li><strong>Data.</strong> GC-148K via a Fashion-Simulator synthesis pipeline.</li>
+          <li><strong>Result.</strong> G-Cap rivals advanced closed-source LVLMs at lower cost.</li>
+        </ul>
+        <div class="callout gold" style="margin-top: calc(4 * var(--u))">
+          <strong>In one line:</strong> a benchmark, a metric &amp; an open recipe bringing industrial-grade game-character captioning within reach.
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ============================ FOOTER ============================ -->
+  <div class="footer" data-measure-role="footer">
+    <div class="footer-meta">
+      <strong style="color:var(--accent-deep)">G-Cap</strong> &middot; ACL 2026 &middot; Sun Yat-sen University &amp; Tencent
+    </div>
+    <div class="footer-fund">Sponsored by CCF-Tencent Rhino-Bird Open Research Fund</div>
+    <div class="footer-links">
+      <div class="footer-item">
+        <span class="footer-label">Code</span>
+        <span class="repo">github.com/AZYoung233/G-Cap</span>
+      </div>
+      <div class="footer-item">
+        <span class="footer-label">Contact</span>
+        <span class="repo">yaoliang3@mail.sysu.edu.cn</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ornament">SYSU &middot; TENCENT</div>
+
+</div>
+
+</body>
+</html>
