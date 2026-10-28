@@ -3,6 +3,10 @@
 <div class="news-container">
     <div class="news-scroll">
         <div class="news-item">
+            <div class="news-date"><strong>Oct 28, 2026</strong></div>
+            <div class="news-content">I am honored to receive the Sun Yat-sen University President's Scholarship for 2026.</div>
+        </div>
+        <div class="news-item">
             <div class="news-date"><strong>Sep 15, 2026</strong></div>
             <div class="news-content">The <a href="g-cap/">G-Cap project page</a> is now online.</div>
         </div>
