@@ -28,7 +28,7 @@
 <div class="timeline-item">
 <div class="timeline-date">Sept. 2025 - Present</div>
 <div class="timeline-title">Sun Yat-sen University</div>
-<div class="timeline-desc">First-year Ph.D student in Cybersecurity, supervised by <a href="https://yao8839836.github.io/">Liang Yao</a>.</div>
+<div class="timeline-desc">Second-year Ph.D student in Cybersecurity, supervised by <a href="https://yao8839836.github.io/">Liang Yao</a>.</div>
 </div>
 
 <div class="timeline-item">
