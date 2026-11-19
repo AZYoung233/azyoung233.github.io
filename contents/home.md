@@ -67,7 +67,7 @@ International Digital Economy Academy (IDEA)
 
 <div class="d-flex flex-wrap">
 <span class="badge-interest">LLM/LVLM & Applications</span>
-<span class="badge-interest">Agentic RL</span>
+<span class="badge-interest">RL for VLM</span>
 </div>
 
 </div>
